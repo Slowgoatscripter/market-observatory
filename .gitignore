@@ -1,5 +1,9 @@
-.venv/
 __pycache__/
-*.pyc
-.env
+*.py[cod]
 .pytest_cache/
+.pytest-oracle-tmp/
+.pytest-*/
+.uv-cache/
+.venv/
+*.tmp
+/data/kalshi/_cache/
