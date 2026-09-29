@@ -97,3 +97,58 @@ Scheduled GitHub Actions continue backfill every three hours until `caught_up`, 
 live incremental update. The weekly report gates confirmation on that state. Both jobs share
 one concurrency group, expose the per-run counts in their logs, and commit only generated
 data/report changes as `github-actions[bot]`.
+
+## Phase 2: crypto observatory
+
+Phase 2 is also a public-data, watch-only research project: it performs no trading, never
+places an order, and never publishes an edge. It uses keyless, public endpoints that were
+available from a U.S. IP when the collector was built. The supported sources are Kalshi
+perpetual futures and crypto brackets, Coinbase Exchange spot, and Kraken spot.
+
+For every active Kalshi perp, the collector records compact, scaled-integer bid, ask, last,
+mark, reference-price, open-interest, funding-estimate, and top-of-book observations. It
+then looks for an exact USD spot market for the same underlying: the Coinbase policy is
+`UNDERLYING-USD`; the Kraken policy selects Kraken's enabled USD pair for that underlying
+(including Kraken's exchange symbols such as XBT for BTC), without silently substituting a
+stablecoin quote. Missing USD pairs are skipped. Spot books retain the depth required to
+calculate executable prices at $100 and $1,000 notionals.
+
+The bracket collector covers KXBTC, KXBTCD, KXETH, and KXETHD. For each series it selects
+the nearest open event by close time and also the next distinct daily-close event, when one
+exists. KXBTC and KXETH are mutually exclusive ranges; KXBTCD and KXETHD are directional
+threshold ladders. These contracts settle from the CF Benchmarks Real Time Index (RTI),
+using its 60-second average immediately before expiry. Reports check executable range sums
+and ladder monotonicity, study perp basis and funding carry without look-ahead, and keep
+bracket calibration in discovery until at least 30 independent days are available. The
+Phase 1 hypothesis-ledger, Benjamini–Hochberg, and day-clustered interval discipline applies.
+
+Collection writes one immutable, append-only `csv.gz` chunk per source per UTC hour under
+`data/crypto/chunks/`; a committed chunk is never rewritten. Only cursors and the last
+settled funding event fetched are kept in the small `data/crypto/crypto-state.json` state
+file. Every chunk logs its bytes and cumulative storage. The annual budget is under 300 MB,
+and collection warns when cumulative storage exceeds 250 MB.
+
+The funding simulations state costs explicitly. Kalshi perps use 0.02% maker or 0.12%
+taker per side. Coinbase spot uses a 0.50% maker / 0.90% taker base case and a 0.60% maker /
+1.20% taker pessimistic case, per side, plus measured executable spread at both notionals.
+Kraken observations provide an independent spot basis comparison, but the carry simulation
+does not assume a Kraken trading fee: Kraken fees are tier-dependent and must be supplied
+for any separate executable analysis. These are fee assumptions for retrospective research,
+not claims about any user's actual fee tier.
+
+Deribit, OKX global, and Bybit are excluded because they are not U.S.-compatible under this
+project's source policy. Hyperliquid is optional and disabled by default because its terms
+restrict U.S. users; scheduled collection does not enable it.
+
+Run the offline tests or the Phase 2 commands locally with:
+
+```console
+uv run pytest -q
+uv run crypto-collect --interval-minutes 15 --max-minutes 340
+uv run crypto-report
+```
+
+The collector is the only Phase 2 command that contacts source APIs. The report reads the
+immutable local chunks and writes `reports/crypto.md` plus the append-only
+`data/crypto/hypotheses.jsonl` audit ledger. As throughout Market Observatory: no trading,
+and no publishing an edge.

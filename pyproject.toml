@@ -18,6 +18,8 @@ dependencies = [
 [project.scripts]
 kalshi-archive = "observatory.kalshi.archive:main"
 kalshi-report = "observatory.kalshi.checks:main"
+crypto-collect = "observatory.crypto.collector:main"
+crypto-report = "observatory.crypto.checks:main"
 
 [dependency-groups]
 dev = ["pytest"]
