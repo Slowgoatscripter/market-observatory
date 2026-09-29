@@ -36,6 +36,20 @@ CHECK_TITLES = {
     "segmented": "Segmented",
     "listing_drift": "Listing drift",
 }
+MENTIONS_HYPOTHESIS_ID = "mentions_longshot_yes_overpriced"
+MENTIONS_HYPOTHESIS = {
+    "check": "favorite_longshot",
+    "segment": "Mentions",
+    "horizon": "1d",
+    "price_range": "$0.10-$0.30",
+    "contract": "yes",
+    "alternative": "negative mean return",
+    "return_basis": "profit per $1 total cost at the ask after taker fee",
+    "plain_english": (
+        "Tests whether YES contracts in Mentions markets priced from $0.10 through $0.30 "
+        "one day before close have a negative mean return when bought at the ask after fees."
+    ),
+}
 
 
 def _number(value: Any) -> float | None:
@@ -151,6 +165,21 @@ def _p_value(estimate: float, low: float, high: float) -> float:
     return min(1.0, 2 * (1 - NormalDist().cdf(abs(estimate / standard_error))))
 
 
+def _negative_mean_p_value(summary: Mapping[str, Any]) -> float:
+    """One-sided p-value for the preregistered negative-mean alternative."""
+
+    estimate = summary.get("estimate")
+    interval = summary.get("confidence_interval", [None, None])
+    if estimate is None or interval[0] is None or interval[1] is None:
+        return 1.0
+    standard_error = (float(interval[1]) - float(interval[0])) / (
+        2 * NormalDist().inv_cdf(0.975)
+    )
+    if standard_error <= 0:
+        return 0.0 if float(estimate) < 0 else 1.0
+    return NormalDist().cdf(float(estimate) / standard_error)
+
+
 MIN_EVENT_CLUSTERS = 30  # independent events needed before a finding gets a p-value
 
 
@@ -186,6 +215,13 @@ def _summary(
 def _bucket(price: float) -> str:
     lower = min(0.95, max(0.0, math.floor((price + 1e-12) / 0.05) * 0.05))
     return f"{lower:.2f}-{lower + 0.05:.2f}"
+
+
+def _is_mention(row: Mapping[str, Any]) -> bool:
+    value = row.get("is_mention")
+    if isinstance(value, str):
+        return value.strip().lower() in {"1", "true", "yes"}
+    return value is True or value == 1
 
 
 def _fee_multiplier(row: Mapping[str, Any]) -> Decimal | None:
@@ -254,6 +290,32 @@ def _calibration_groups(rows: Sequence[Mapping[str, Any]]) -> Iterable[tuple[str
                 "actual_win_rate": sum(part[0] * part[2] for part in parts) / total_weight,
                 "mean_implied_probability": sum(part[1] * part[2] for part in parts) / total_weight,
             }, observations
+        mention_rows = [row for row in rows if _is_mention(row)]
+        if mention_rows:
+            groups = defaultdict(list)
+            components = defaultdict(list)
+            for index, row in enumerate(mention_rows):
+                outcome = _outcome(row)
+                price = _nested_price(row, horizon, "last_trade")
+                if price is None:
+                    price = _nested_price(row, horizon, "yes_ask")
+                if outcome is None or price is None or not 0 <= price <= 1:
+                    continue
+                bucket = _bucket(price)
+                weight = _weight(row)
+                groups[bucket].append((outcome - price, _event(row, index), weight))
+                components[bucket].append((outcome, price, weight))
+            for bucket, observations in sorted(groups.items()):
+                parts = components[bucket]
+                total_weight = sum(part[2] for part in parts)
+                yield f"calibration:mentions:{horizon}:{bucket}", {
+                    "check": "calibration",
+                    "segment": "Mentions",
+                    "horizon": horizon,
+                    "price_bucket": bucket,
+                    "actual_win_rate": sum(part[0] * part[2] for part in parts) / total_weight,
+                    "mean_implied_probability": sum(part[1] * part[2] for part in parts) / total_weight,
+                }, observations
 
 
 def _favorite_groups(rows: Sequence[Mapping[str, Any]]) -> Iterable[tuple[str, dict[str, Any], list[tuple[float, str, float]]]]:
@@ -279,6 +341,49 @@ def _favorite_groups(rows: Sequence[Mapping[str, Any]]) -> Iterable[tuple[str, d
                 "contract": contract,
                 "return_basis": "profit per $1 total cost at the ask after taker fee",
             }, observations
+        mention_groups: dict[tuple[str, str], list[tuple[float, str, float]]] = defaultdict(list)
+        for index, row in enumerate(rows):
+            if not _is_mention(row):
+                continue
+            outcome = _outcome(row)
+            ask = _nested_price(row, horizon, "yes_ask")
+            if outcome is None or ask is None:
+                continue
+            for contract, net_return in (
+                ("yes", _yes_return(row, horizon, outcome)),
+                ("no", _no_return(row, horizon, outcome)),
+            ):
+                if net_return is not None:
+                    mention_groups[(_bucket(ask), contract)].append(
+                        (net_return, _event(row, index), _weight(row))
+                    )
+        for (bucket, contract), observations in sorted(mention_groups.items()):
+            yield f"favorite_longshot:mentions:{horizon}:{bucket}:{contract}", {
+                "check": "favorite_longshot",
+                "segment": "Mentions",
+                "horizon": horizon,
+                "price_bucket": bucket,
+                "contract": contract,
+                "return_basis": "profit per $1 total cost at the ask after taker fee",
+            }, observations
+
+
+def _mentions_preregistered_group(
+    rows: Sequence[Mapping[str, Any]],
+) -> Iterable[tuple[str, dict[str, Any], list[tuple[float, str, float]]]]:
+    observations: list[tuple[float, str, float]] = []
+    for index, row in enumerate(rows):
+        if not _is_mention(row):
+            continue
+        outcome = _outcome(row)
+        ask = _nested_price(row, "1d", "yes_ask")
+        if outcome is None or ask is None or not 0.10 <= ask <= 0.30:
+            continue
+        net_return = _yes_return(row, "1d", outcome)
+        if net_return is not None:
+            observations.append((net_return, _event(row, index), _weight(row)))
+    if any(_is_mention(row) for row in rows):
+        yield MENTIONS_HYPOTHESIS_ID, dict(MENTIONS_HYPOTHESIS), observations
 
 
 def _duration_band(row: Mapping[str, Any]) -> str | None:
@@ -361,6 +466,7 @@ def _listing_groups(rows: Sequence[Mapping[str, Any]]) -> Iterable[tuple[str, di
 
 
 def _all_groups(rows: Sequence[Mapping[str, Any]]):
+    yield from _mentions_preregistered_group(rows)
     yield from _calibration_groups(rows)
     yield from _favorite_groups(rows)
     yield from _segmented_groups(rows)
@@ -398,8 +504,18 @@ def run_standard_checks(
 
     for hypothesis, (metadata, observations) in discovery_groups.items():
         summary = _summary(discovery, observations)
+        if hypothesis == MENTIONS_HYPOTHESIS_ID:
+            summary["p_value"] = _negative_mean_p_value(summary)
         finding = {"hypothesis_id": hypothesis, "phase": "discovery", **metadata, **summary}
         if ledger_object is not None and observations:
+            preregistration = (
+                {
+                    "preregistered_hypothesis": metadata["plain_english"],
+                    "alternative": metadata["alternative"],
+                }
+                if hypothesis == MENTIONS_HYPOTHESIS_ID
+                else {}
+            )
             entry = ledger_object.log_run(
                 hypothesis_id=hypothesis,
                 phase="discovery",
@@ -407,6 +523,7 @@ def run_standard_checks(
                 record_ids=[_record_id(row, index) for index, row in enumerate(discovery)],
                 settlement_times=[_settlement_time(row) for row in discovery],
                 check=metadata["check"],
+                **preregistration,
             )
             finding["ledger_run_id"] = entry["run_id"]
         discovered_now.add(hypothesis)
@@ -430,8 +547,18 @@ def run_standard_checks(
         if not allowed:
             continue
         summary = _summary(confirmation, observations)
+        if hypothesis == MENTIONS_HYPOTHESIS_ID:
+            summary["p_value"] = _negative_mean_p_value(summary)
         finding = {"hypothesis_id": hypothesis, "phase": "confirmation", **metadata, **summary}
         if ledger_object is not None:
+            preregistration = (
+                {
+                    "preregistered_hypothesis": metadata["plain_english"],
+                    "alternative": metadata["alternative"],
+                }
+                if hypothesis == MENTIONS_HYPOTHESIS_ID
+                else {}
+            )
             try:
                 entry = ledger_object.log_run(
                     hypothesis_id=hypothesis,
@@ -441,6 +568,7 @@ def run_standard_checks(
                     settlement_times=[_settlement_time(row) for row in confirmation],
                     caught_up=caught_up,
                     check=metadata["check"],
+                    **preregistration,
                 )
             except ConfirmationLockError:
                 continue
@@ -519,13 +647,36 @@ def write_outputs(
         lines.extend(["Confirmation waits until the archive is complete.", ""])
     if not findings:
         lines.append("No usable settled markets were available.")
-    for finding in findings:
+    ordered_findings = sorted(
+        findings,
+        key=lambda finding: finding.get("hypothesis_id") != MENTIONS_HYPOTHESIS_ID,
+    )
+    for finding in ordered_findings:
         check = str(finding.get("check", "unknown"))
         title = CHECK_TITLES.get(check, check.replace("_", " ").title())
         phase = str(finding.get("phase", "discovery"))
         label = "confirmed on held-back data" if phase == "confirmation" else "candidate (discovery only)"
         interval = finding.get("confidence_interval", [None, None])
         observed_range = finding.get("observed_range", [None, None])
+        if finding.get("hypothesis_id") == MENTIONS_HYPOTHESIS_ID:
+            result = (
+                "negative as preregistered"
+                if finding.get("estimate") is not None and float(finding["estimate"]) < 0
+                else "not negative as preregistered"
+            )
+            lines.extend(
+                [
+                    f"### Mentions longshot YES — {label}",
+                    "",
+                    str(finding.get("plain_english", MENTIONS_HYPOTHESIS["plain_english"])),
+                    f"Result: {result}; mean return {_fmt(finding.get('estimate'))}. Sample: {finding.get('event_clusters', 0)} independent events ({finding.get('sample_size', 0)} contracts). Status: {label}.",
+                    (f"Not tested: only {finding.get('event_clusters')} independent events "
+                     f"(needs {MIN_EVENT_CLUSTERS})." if finding.get('too_few_events') else
+                     f"Raw p-value: {_fmt(finding.get('p_value'))}; multiple-testing adjusted q-value: {_fmt(finding.get('q_value'))}."),
+                    "",
+                ]
+            )
+            continue
         lines.extend(
             [
                 f"### {title} — {label}",
@@ -580,11 +731,29 @@ def load_archive_rows(data_dir: str | Path = "data/kalshi") -> list[dict[str, An
     """Load append-only chunks, keeping the newest row for each ticker."""
 
     root = Path(data_dir)
+    mention_tickers: set[str] | None = None
+    for mention_cache in (root / "mention-series.json", root / "_cache" / "mention-series.json"):
+        try:
+            cached = json.loads(mention_cache.read_text(encoding="utf-8"))
+        except (OSError, ValueError, TypeError):
+            continue
+        if isinstance(cached, dict):
+            cached = cached.get("tickers")
+        if isinstance(cached, list):
+            mention_tickers = {str(ticker) for ticker in cached if ticker}
+            break
     rows: dict[str, dict[str, Any]] = {}
     for path in sorted((root / "chunks").glob("*.csv.gz")):
         with gzip.open(path, "rt", encoding="utf-8", newline="") as handle:
             for row in csv.DictReader(handle):
-                rows[str(row.get("ticker") or f"{path}:{len(rows)}")] = dict(row)
+                loaded = dict(row)
+                if "is_mention" not in loaded or loaded.get("is_mention") == "":
+                    loaded["is_mention"] = (
+                        None
+                        if mention_tickers is None
+                        else int(str(loaded.get("series_ticker")) in mention_tickers)
+                    )
+                rows[str(row.get("ticker") or f"{path}:{len(rows)}")] = loaded
     return list(rows.values())
 
 

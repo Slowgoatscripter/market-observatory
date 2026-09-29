@@ -44,6 +44,7 @@ CHUNK_COLUMNS = (
     "series_ticker",
     "category",
     "frequency",
+    "is_mention",
     "open_time",
     "close_time",
     "settlement_time",
@@ -58,6 +59,7 @@ CHUNK_COLUMNS = (
 )
 SIZE_WARNING_BYTES = 250 * 1024 * 1024
 SERIES_CACHE_TTL_SECONDS = 60 * 60
+MENTION_CACHE_TTL_SECONDS = 24 * 60 * 60
 
 
 def _utc(value: datetime | str) -> datetime:
@@ -256,6 +258,7 @@ def summarize_market(
         "series_ticker": event.get("series_ticker") or market.get("series_ticker") or series.get("ticker"),
         "category": series.get("category") or event.get("category"),
         "frequency": series.get("frequency"),
+        "is_mention": int(bool(series.get("is_mention", False))),
         "fee_type": series.get("fee_type"),
         "fee_multiplier": series.get("fee_multiplier"),
         "open_time": opened.isoformat().replace("+00:00", "Z"),
@@ -328,6 +331,10 @@ def _compact_row(original: Mapping[str, Any]) -> dict[str, Any]:
     compact: dict[str, Any] = {column: "" for column in CHUNK_COLUMNS}
     for column in ("ticker", "event_ticker", "series_ticker", "category", "frequency", "result"):
         compact[column] = row.get(column) or ""
+    mention = row.get("is_mention", 0)
+    if isinstance(mention, str):
+        mention = mention.strip().lower() in {"1", "true", "yes"}
+    compact["is_mention"] = str(int(bool(mention)))
     for column in ("open_time", "close_time", "settlement_time"):
         compact[column] = _iso_seconds(row.get(column))
     volume = row.get("volume")
@@ -362,6 +369,9 @@ class MonthlyArchive:
         self.cache_dir = self.root / "_cache"
         self.state_path = self.root / "archive-state.json"
         self.catalog_cache_path = self.cache_dir / "series-catalog.json"
+        # Committed with the archive (not in _cache/, which isn't carried between
+        # GitHub runs), so the report job can label rows written before is_mention.
+        self.mention_cache_path = self.root / "mention-series.json"
         self._pending_rows: dict[str, dict[str, Any]] = {}
         self._pending_months: dict[str, str] = {}
         self.defer_state_writes = False
@@ -520,9 +530,40 @@ class ArchiveCollector:
         os.replace(temporary, cache)
         return catalog
 
+    def load_mention_series(self) -> set[str]:
+        """Load the case-sensitive Mentions category membership, refreshed daily."""
+
+        # Freshness comes from the timestamp inside the file: a git checkout resets
+        # file modification times, so mtime would look fresh on every GitHub run.
+        cache = self.archive.mention_cache_path
+        try:
+            cached = json.loads(cache.read_text(encoding="utf-8"))
+            fetched = _utc(cached["fetched_at"]).timestamp()
+            if time.time() - fetched < MENTION_CACHE_TTL_SECONDS and isinstance(cached.get("tickers"), list):
+                return {str(ticker) for ticker in cached["tickers"] if ticker}
+        except (OSError, ValueError, TypeError, KeyError, AttributeError):
+            pass
+        tickers = {
+            str(row["ticker"])
+            for row in self.client.series_list(category="Mentions")
+            if row.get("ticker")
+        }
+        cache.parent.mkdir(parents=True, exist_ok=True)
+        temporary = cache.with_suffix(".json.tmp")
+        fetched_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+        temporary.write_text(json.dumps({"fetched_at": fetched_at, "tickers": sorted(tickers)}, indent=0),
+                             encoding="utf-8")
+        os.replace(temporary, cache)
+        return tickers
+
     def collect(self, *, cutoff: datetime, deadline: float, incremental: bool = False) -> bool:
         state = self.archive.load_state()
+        mention_tickers = self.load_mention_series()
         catalog = self.load_series_catalog(state)
+        for ticker in mention_tickers:
+            catalog.setdefault(ticker, {"ticker": ticker})
+        for ticker, metadata in catalog.items():
+            metadata["is_mention"] = ticker in mention_tickers
         finished = set(state.setdefault("finished_series", []))
         series_state = state.setdefault("series", {})
         now = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
@@ -538,7 +579,10 @@ class ArchiveCollector:
             incremental_finished = set()
             since = None
         self.archive.save_state(state)
-        for ticker, metadata in catalog.items():
+        ordered_catalog = sorted(
+            catalog.items(), key=lambda item: (item[0] not in mention_tickers,)
+        )
+        for ticker, metadata in ordered_catalog:
             if time.monotonic() >= deadline:
                 return False
             if ticker.upper().startswith("KXMVE"):

@@ -205,8 +205,10 @@ class _SeriesClient:
         return self.cutoff
 
     def series_list(self, **params: Any):
-        del params
         self.series_list_calls += 1
+        if params.get("category") == "Mentions":
+            yield {"ticker": "SLOW", "frequency": "monthly"}
+            return
         yield {"ticker": "SLOW", "frequency": "monthly"}
         yield {"ticker": "FAST", "frequency": "hourly"}
 
@@ -273,7 +275,7 @@ def test_series_backfill_state_sampling_order_and_incremental_transition(
 
     module.run_archive(data_dir=tmp_path, mode="backfill", max_minutes=5)
 
-    assert client.series_list_calls == 1
+    assert client.series_list_calls == 2
     slow_tiers = {tier for kind, tier, _ in client.calls if kind == "markets"}
     assert slow_tiers == {"historical", "live"}
     assert any(kind == "events" and params.get("series_ticker") == "FAST" for kind, _, params in client.calls)
@@ -291,7 +293,7 @@ def test_series_backfill_state_sampling_order_and_incremental_transition(
     module.run_archive(data_dir=tmp_path, mode="auto", max_minutes=5)
     incremental = client.calls[before:]
     assert incremental and all(tier == "live" for _, tier, _ in incremental)
-    assert client.series_list_calls == 1
+    assert client.series_list_calls == 2
 
 
 def test_ledger_summarizes_ids_and_times_and_omits_insufficient_runs(tmp_path: Path) -> None:
