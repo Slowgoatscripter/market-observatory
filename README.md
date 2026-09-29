@@ -32,8 +32,13 @@ Cursor updates are committed only after the run's chunk is durable, so a failed 
 repeats its last page instead of advancing past unwritten rows.
 
 Backfill is series-driven because Kalshi's historical market endpoint is newest-first and
-has no time filters. The collector caches the paginated series catalog for one hour in the
-git-ignored `data/kalshi/_cache/` directory, never in committed archive state. Newly seen
+has no time filters. At the start of a run, the collector loads Kalshi's case-sensitive
+`Mentions` series category, caches those tickers for one day in the git-ignored
+`data/kalshi/_cache/` directory, and walks unfinished mention series before every other
+series so the favorite-longshot hypothesis gets evidence as early as possible. New chunks
+record `is_mention`; the report derives it for older chunks from that cache without
+rewriting them. The paginated full series catalog is cached for one hour, never in
+committed archive state. Newly seen
 series receive a complete first walk before joining incremental updates. Slow series are
 walked by `series_ticker`. For fast series, events are paged and hash-sampled before any
 market or candle request. Per-series cursors and finished series are stored in

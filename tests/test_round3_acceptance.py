@@ -30,6 +30,7 @@ CORE_COLUMNS = {
     "series_ticker",
     "category",
     "frequency",
+    "is_mention",
     "open_time",
     "close_time",
     "settlement_time",
@@ -103,6 +104,7 @@ def test_each_run_creates_one_immutable_compact_gzip_csv_chunk(tmp_path: Path) -
     assert len(rows) == 3
     assert all(re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z", rows[0][name]) for name in ("open_time", "close_time", "settlement_time"))
     assert rows[0]["volume"] == "17"
+    assert rows[0]["is_mention"] == "0"
     for horizon in HORIZONS:
         assert rows[0][f"{horizon}_last_trade"] == f"{float(rows[0][f'{horizon}_last_trade']):.4f}"
         assert rows[0][f"{horizon}_source_timestamp"]
