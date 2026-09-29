@@ -1,0 +1,45 @@
+{
+ "cursor": "EhIKEAcjVWHVSapd4iWeC2NIpj0aCwjhwfDVBhDw_K87",
+ "trades": [
+  {
+   "count": "38.00",
+   "created_time": "2026-09-29T20:34:41.399525Z",
+   "price": "8.3583",
+   "taker_side": "bid",
+   "ticker": "KXBTCPERP",
+   "trade_id": "07235561-d549-9a81-c925-c76aa22133f8"
+  },
+  {
+   "count": "37.00",
+   "created_time": "2026-09-29T20:34:41.354909Z",
+   "price": "8.3583",
+   "taker_side": "bid",
+   "ticker": "KXBTCPERP",
+   "trade_id": "07235561-d549-9f6c-a851-a5000c61f5ef"
+  },
+  {
+   "count": "37.00",
+   "created_time": "2026-09-29T20:34:41.338636Z",
+   "price": "8.3583",
+   "taker_side": "bid",
+   "ticker": "KXBTCPERP",
+   "trade_id": "07235561-d549-b001-e62d-073eb91d4542"
+  },
+  {
+   "count": "38.00",
+   "created_time": "2026-09-29T20:34:41.138134Z",
+   "price": "8.3586",
+   "taker_side": "ask",
+   "ticker": "KXBTCPERP",
+   "trade_id": "07235561-d549-984e-206a-acecc666f044"
+  },
+  {
+   "count": "196.00",
+   "created_time": "2026-09-29T20:34:41.124518Z",
+   "price": "8.3587",
+   "taker_side": "ask",
+   "ticker": "KXBTCPERP",
+   "trade_id": "07235561-d549-aa5d-e225-9e0b6348a63d"
+  }
+ ]
+}

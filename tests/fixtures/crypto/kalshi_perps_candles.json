@@ -1,0 +1,140 @@
+{
+ "ticker": "KXBTCPERP",
+ "candlesticks": [
+  {
+   "ask": {
+    "close": "8.3738",
+    "high": "8.4296",
+    "low": "8.3670",
+    "open": "8.4199"
+   },
+   "bid": {
+    "close": "8.3736",
+    "high": "8.4287",
+    "low": "8.3667",
+    "open": "8.4189"
+   },
+   "end_period_ts": 1790694000,
+   "open_interest": "1412870.00",
+   "open_interest_notional_value_dollars": "11830949.519000",
+   "price": {
+    "close": "8.3737",
+    "high": "8.4288",
+    "low": "8.3668",
+    "mean": "8.3926",
+    "open": "8.4193",
+    "previous": "8.4184"
+   },
+   "volume": "4243823.00",
+   "volume_notional_value_dollars": "35616708.909800"
+  },
+  {
+   "ask": {
+    "close": "8.3066",
+    "high": "8.3752",
+    "low": "8.2883",
+    "open": "8.3738"
+   },
+   "bid": {
+    "close": "8.3063",
+    "high": "8.3745",
+    "low": "8.2876",
+    "open": "8.3735"
+   },
+   "end_period_ts": 1790697600,
+   "open_interest": "1481431.00",
+   "open_interest_notional_value_dollars": "12305358.458400",
+   "price": {
+    "close": "8.3064",
+    "high": "8.3744",
+    "low": "8.2883",
+    "mean": "8.3234",
+    "open": "8.3736",
+    "previous": "8.3737"
+   },
+   "volume": "4287186.00",
+   "volume_notional_value_dollars": "35683963.952400"
+  },
+  {
+   "ask": {
+    "close": "8.3039",
+    "high": "8.3293",
+    "low": "8.2883",
+    "open": "8.3066"
+   },
+   "bid": {
+    "close": "8.3037",
+    "high": "8.3290",
+    "low": "8.2875",
+    "open": "8.3063"
+   },
+   "end_period_ts": 1790701200,
+   "open_interest": "1502843.00",
+   "open_interest_notional_value_dollars": "12479307.703400",
+   "price": {
+    "close": "8.3038",
+    "high": "8.3290",
+    "low": "8.2876",
+    "mean": "8.3085",
+    "open": "8.3066",
+    "previous": "8.3064"
+   },
+   "volume": "3672823.00",
+   "volume_notional_value_dollars": "30515649.895500"
+  },
+  {
+   "ask": {
+    "close": "8.3057",
+    "high": "8.3215",
+    "low": "8.2959",
+    "open": "8.3039"
+   },
+   "bid": {
+    "close": "8.3052",
+    "high": "8.3210",
+    "low": "8.2946",
+    "open": "8.3037"
+   },
+   "end_period_ts": 1790704800,
+   "open_interest": "1519055.00",
+   "open_interest_notional_value_dollars": "12615751.775000",
+   "price": {
+    "close": "8.3050",
+    "high": "8.3210",
+    "low": "8.2957",
+    "mean": "8.3093",
+    "open": "8.3037",
+    "previous": "8.3038"
+   },
+   "volume": "2424645.00",
+   "volume_notional_value_dollars": "20147102.698500"
+  },
+  {
+   "ask": {
+    "close": "8.3619",
+    "high": "8.3696",
+    "low": "8.3056",
+    "open": "8.3057"
+   },
+   "bid": {
+    "close": "8.3615",
+    "high": "8.3688",
+    "low": "8.3052",
+    "open": "8.3053"
+   },
+   "end_period_ts": 1790708400,
+   "open_interest": "1485971.00",
+   "open_interest_notional_value_dollars": "12425392.307800",
+   "price": {
+    "close": "8.3618",
+    "high": "8.3689",
+    "low": "8.3056",
+    "mean": "8.3438",
+    "open": "8.3056",
+    "previous": "8.3050"
+   },
+   "volume": "3420979.00",
+   "volume_notional_value_dollars": "28543964.580200"
+  }
+ ]
+}
