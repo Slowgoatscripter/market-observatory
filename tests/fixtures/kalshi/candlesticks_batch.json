@@ -1,0 +1,58 @@
+{
+ "markets": [
+  {
+   "candlesticks": [
+    {
+     "end_period_ts": 1790679600,
+     "open_interest_fp": "772.81",
+     "price": {
+      "close_dollars": "0.2800",
+      "high_dollars": "0.3000",
+      "low_dollars": "0.0800",
+      "mean_dollars": "0.2077",
+      "open_dollars": "0.1800"
+     },
+     "volume_fp": "792.32",
+     "yes_ask": {
+      "close_dollars": "0.2600",
+      "high_dollars": "0.9900",
+      "low_dollars": "0.1300",
+      "open_dollars": "0.9900"
+     },
+     "yes_bid": {
+      "close_dollars": "0.2100",
+      "high_dollars": "0.2100",
+      "low_dollars": "0.0000",
+      "open_dollars": "0.0000"
+     }
+    },
+    {
+     "end_period_ts": 1790683200,
+     "open_interest_fp": "26348.87",
+     "price": {
+      "close_dollars": "0.3400",
+      "high_dollars": "0.4900",
+      "low_dollars": "0.0400",
+      "mean_dollars": "0.3344",
+      "open_dollars": "0.2900",
+      "previous_dollars": "0.2800"
+     },
+     "volume_fp": "36554.45",
+     "yes_ask": {
+      "close_dollars": "0.3400",
+      "high_dollars": "0.5300",
+      "low_dollars": "0.0600",
+      "open_dollars": "0.2600"
+     },
+     "yes_bid": {
+      "close_dollars": "0.3300",
+      "high_dollars": "0.3900",
+      "low_dollars": "0.0400",
+      "open_dollars": "0.2100"
+     }
+    }
+   ],
+   "market_ticker": "KXINTLFRIENDLYTOTAL-26SEP29AUSBRA-7"
+  }
+ ]
+}

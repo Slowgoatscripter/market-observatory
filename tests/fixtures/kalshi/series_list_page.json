@@ -1,0 +1,573 @@
+{
+ "series": [
+  {
+   "additional_prohibitions": [
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Economics"
+   ],
+   "category": "Economics",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/FEDEMPLOYEES.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/FEDEMPLOYEES.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "custom",
+   "last_updated_ts": "2026-08-29T22:27:15.071958Z",
+   "settlement_sources": [
+    {
+     "name": "FRED",
+     "url": "https://fred.stlouisfed.org/"
+    }
+   ],
+   "tags": [
+    "Jobs & Economy"
+   ],
+   "ticker": "KXFEDEMPLOYEES",
+   "title": "Federal government employee count"
+  },
+  {
+   "additional_prohibitions": [
+    "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+    "Paid employees of the league and league participants",
+    "Owners of teams and the league",
+    "and household members and immediate family of all above",
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Sports"
+   ],
+   "category": "Sports",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/ACHIEVEMENTS.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ACHIEVEMENTS.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "annual",
+   "last_updated_ts": "2026-09-28T23:31:13.318818Z",
+   "settlement_sources": [
+    {
+     "name": "The Wall Street Journal",
+     "url": "https://www.wsj.com/"
+    },
+    {
+     "name": "ESPN",
+     "url": "https://www.espn.com/"
+    },
+    {
+     "name": "Fox Sports",
+     "url": "https://www.foxsports.com/"
+    },
+    {
+     "name": "AP",
+     "url": "https://apnews.com/"
+    }
+   ],
+   "tags": [
+    "Soccer"
+   ],
+   "ticker": "KXUEFACLTOPGOAL",
+   "title": "UEFA CL Top Goal Scorer"
+  },
+  {
+   "additional_prohibitions": [
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract.",
+    "Any candidate currently listed as a market within this event"
+   ],
+   "categories": [
+    "Elections"
+   ],
+   "category": "Elections",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/ELECTION.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ELECTION.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "custom",
+   "last_updated_ts": "2026-09-28T17:07:33.409848Z",
+   "settlement_sources": [
+    {
+     "name": "South Carolina State Election Commission",
+     "url": "https://scvotes.gov/elections-statistics/election-results/"
+    }
+   ],
+   "tags": [
+    "US Elections"
+   ],
+   "ticker": "KXSECSTATESC",
+   "title": "South Carolina Secretary of State winner"
+  },
+  {
+   "additional_prohibitions": [
+    "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+    "Paid employees of the league and league participants",
+    "Owners of teams and the league",
+    "and household members and immediate family of all above",
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Sports"
+   ],
+   "category": "Sports",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/ACHIEVEMENTS.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ACHIEVEMENTS.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "annual",
+   "last_updated_ts": "2026-09-28T23:31:13.094941Z",
+   "settlement_sources": [
+    {
+     "name": "The Wall Street Journal",
+     "url": "https://www.wsj.com/"
+    },
+    {
+     "name": "Grenke Chess Open",
+     "url": "https://www.grenkechessopen.de/en/"
+    },
+    {
+     "name": "Fox Sports",
+     "url": "https://www.foxsports.com"
+    },
+    {
+     "name": "ESPN",
+     "url": "https://www.espn.com"
+    }
+   ],
+   "tags": [
+    "Chess"
+   ],
+   "ticker": "KXCHESSGRENKEOPEN",
+   "title": "Grenke Chess Open"
+  },
+  {
+   "additional_prohibitions": [
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract.",
+    "Any candidate currently listed as a market within this event"
+   ],
+   "categories": [
+    "Elections"
+   ],
+   "category": "Elections",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/ELECTION.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ELECTION.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "custom",
+   "last_updated_ts": "2026-09-28T17:07:34.628162Z",
+   "settlement_sources": [
+    {
+     "name": "Nevada Secretary of State",
+     "url": "https://www.nvsos.gov/sos/elections/election-information/2026-election-information"
+    },
+    {
+     "name": "Washoe County Registrar of Voters",
+     "url": "https://www.washoecounty.gov/voters/information/index.php"
+    }
+   ],
+   "tags": [
+    "US Elections"
+   ],
+   "ticker": "KXNVLTGOV",
+   "title": "Nevada Lieutenant Governor winner"
+  },
+  {
+   "additional_prohibitions": [
+    "Tesla employees",
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Companies"
+   ],
+   "category": "Companies",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/TESLAPROD.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/TESLAPROD.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "custom",
+   "last_updated_ts": "2026-09-28T18:08:08.382335Z",
+   "settlement_sources": [
+    {
+     "name": "Tesla",
+     "url": "https://www.tesla.com/blog"
+    }
+   ],
+   "tags": [
+    "Elon Musk",
+    "KPIs"
+   ],
+   "ticker": "TESLAPROD",
+   "title": "Tesla production"
+  },
+  {
+   "additional_prohibitions": [
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Politics"
+   ],
+   "category": "Politics",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/REMOVE.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/REMOVE.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "custom",
+   "last_updated_ts": "2026-08-29T22:27:15.071958Z",
+   "settlement_sources": [
+    {
+     "name": "U.S. Senate",
+     "url": "https://www.rules.senate.gov/rules-of-the-senate"
+    }
+   ],
+   "tags": [
+    "Trump"
+   ],
+   "ticker": "KXTRUMPREMOVE",
+   "title": "Trump removed"
+  },
+  {
+   "additional_prohibitions": [
+    "Any candidate currently listed as a market within this event.",
+    "Immediate family members (spouses and dependents) of any candidate currently listed as a market within this event.",
+    "Paid staffers on any campaign listed within this event.",
+    "Third-party vendors, contractors, consultants, and outside counsel (and employees thereof) engaged by any campaign listed within this event.",
+    "Paid employees of national, state, or congressional party organizations (including, e.g., the DNC, RNC, DCCC, NRCC, DSCC, and NRSC).",
+    "Paid employees of Political Action Committees (PACs) and independent-expenditure-only political committees (\"Super PACs\") active in any race listed within this event.",
+    "Registered federal lobbyists retained by any campaign, party organization, or PAC active in any race listed within this event.",
+    "Holders of federal and statewide public office.",
+    "State legislators serving on committees with jurisdiction over election administration in any state with a race listed within this event.",
+    "All staff of the U.S. House of Representatives and its members.",
+    "All staff of the U.S. Senate and its members.",
+    "All staff of the Executive Office of the President, including the Office of the President and the Office of the Vice President.",
+    "Commissioners and staff of the Federal Election Commission.",
+    "Senior staff (Schedule C and equivalent political appointees) of any federal agency with jurisdiction over election administration, election security, or election-related enforcement, including without limitation the Department of Justice (Public Integrity Section, Election Crimes Branch, and Civil Rights Division Voting Section) and the Department of Homeland Security (CISA).",
+    "All staff of the U.S. Supreme Court and its Justices.",
+    "Federal and state judges presiding over active litigation related to any race listed within this event.",
+    "All Electors who may cast ballots in connection with the determination of the President and/or Vice President of the United States.",
+    "State Secretaries of State (and equivalent chief election officials), members of state and local boards of elections, election directors, registrars, and senior staff of state and local election administration offices.",
+    "Any person working in a vote-tallying capacity, or who has the potential ability to observe official vote counts before they are public.",
+    "Paid employees of major polling organizations. The Exchange shall maintain and publish a list of polling organizations it has designated as \"major\" and may modify that list at any time. This prohibition does not apply to all employees of an organization that contains a polling division (e.g., the prohibition does not apply to all employees of Quinnipiac University despite the presence of Quinnipiac University's polling division).",
+    "Employees of Decision Desks at major media organizations, including but not limited to Fox News, ABC News, the Associated Press, CNN, CBS News, Decision Desk HQ, NBC News, The New York Times, and Reuters.",
+    "Employees of exit-polling and election-night survey operations engaged by media organizations or campaigns in any race listed within this event, including but not limited to Edison Research and the National Election Pool."
+   ],
+   "categories": [
+    "Elections"
+   ],
+   "category": "Elections",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/TURKEYPRES.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/TURKEYPRES.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "custom",
+   "last_updated_ts": "2026-08-29T22:43:16.984085Z",
+   "settlement_sources": [
+    {
+     "name": "Fox News",
+     "url": "https://www.foxnews.com/"
+    },
+    {
+     "name": "MSNBC",
+     "url": "https://www.msnbc.com/"
+    },
+    {
+     "name": "The Wall Street Journal",
+     "url": "https://www.wsj.com/"
+    },
+    {
+     "name": "Semafor",
+     "url": "https://www.semafor.com/"
+    },
+    {
+     "name": "ABC",
+     "url": "https://abcnews.go.com/"
+    },
+    {
+     "name": "The Information",
+     "url": "https://www.theinformation.com/"
+    },
+    {
+     "name": "CBS",
+     "url": "https://www.cbsnews.com/"
+    },
+    {
+     "name": "The New York Times",
+     "url": "https://www.nytimes.com/"
+    },
+    {
+     "name": "Axios",
+     "url": "https://www.axios.com/"
+    },
+    {
+     "name": "CNN",
+     "url": "https://www.cnn.com/"
+    },
+    {
+     "name": "Reuters",
+     "url": "https://www.reuters.com/"
+    },
+    {
+     "name": "The Washington Post",
+     "url": "https://www.washingtonpost.com/"
+    },
+    {
+     "name": "the Associated Press",
+     "url": "https://apnews.com/"
+    },
+    {
+     "name": "Politico",
+     "url": "https://www.politico.com/"
+    }
+   ],
+   "tags": [
+    "International elections"
+   ],
+   "ticker": "KXTURKEYPRES",
+   "title": "Winner of next Turkish presidential election"
+  },
+  {
+   "additional_prohibitions": [
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Entertainment"
+   ],
+   "category": "Entertainment",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/GRAMMY.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/GRAMMY.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "one_off",
+   "last_updated_ts": "2026-09-23T19:22:00.82739Z",
+   "settlement_sources": [
+    {
+     "name": "Recording Academy",
+     "url": "https://www.grammy.com/"
+    }
+   ],
+   "tags": [
+    "Awards",
+    "Grammys"
+   ],
+   "ticker": "KXGRAMPOTYC",
+   "title": "Producer Of The Year, Classical"
+  },
+  {
+   "additional_prohibitions": [
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Politics"
+   ],
+   "category": "Politics",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/COUNTRYACTION.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/COUNTRYACTION.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "one_off",
+   "last_updated_ts": "2026-09-28T19:36:36.244528Z",
+   "settlement_sources": [
+    {
+     "name": "Department of the Taoiseach",
+     "url": "https://www.gov.ie/en/department-of-the-taoiseach/"
+    },
+    {
+     "name": "Houses of the Oireachtas",
+     "url": "https://www.oireachtas.ie/en/"
+    },
+    {
+     "name": "Department of Housing, Local Government and Heritage",
+     "url": "https://www.gov.ie/en/department-of-housing-local-government-and-heritage/"
+    }
+   ],
+   "tags": [
+    "International"
+   ],
+   "ticker": "KXIREREFCALL",
+   "title": "Irish reunification referendum announcement"
+  },
+  {
+   "additional_prohibitions": [
+    "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+    "Paid employees of the league and league participants",
+    "Owners of teams and the league",
+    "and household members and immediate family of all above",
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Sports"
+   ],
+   "category": "Sports",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/UCLADVANCE.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/UCLADVANCE.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "annual",
+   "last_updated_ts": "2026-09-16T01:25:25.452011Z",
+   "settlement_sources": [
+    {
+     "name": "UCL",
+     "url": "https://www.uefa.com/uefachampionsleague/standings/"
+    }
+   ],
+   "tags": [
+    "Soccer"
+   ],
+   "ticker": "KXUCLBOTTOM",
+   "title": "UCL League Phase Bottom of Table"
+  },
+  {
+   "additional_prohibitions": [
+    "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+    "Paid employees of the league and league participants",
+    "Owners of teams and the league",
+    "and household members and immediate family of all above",
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Sports"
+   ],
+   "category": "Sports",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/ACHIEVEMENTS.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ACHIEVEMENTS.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "custom",
+   "last_updated_ts": "2026-09-28T23:31:13.557897Z",
+   "settlement_sources": [
+    {
+     "name": "ESPN",
+     "url": "https://www.espn.com"
+    },
+    {
+     "name": "DP World Tour",
+     "url": "https://www.europeantour.com/dpworld-tour/schedule/"
+    }
+   ],
+   "tags": [
+    "Golf"
+   ],
+   "ticker": "KXDPWORLDTOURR3LEAD",
+   "title": "DP World Tour R3 Leader"
+  },
+  {
+   "additional_prohibitions": [
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Economics"
+   ],
+   "category": "Economics",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/ECONSTAT.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ECONSTAT.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "monthly",
+   "last_updated_ts": "2026-09-28T16:58:17.32814Z",
+   "settlement_sources": [
+    {
+     "name": "Bureau of Labor Statistics- Employment Situation",
+     "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+    },
+    {
+     "name": "Bureau of Labor Statistics- Consumer Price Index",
+     "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    }
+   ],
+   "tags": [
+    "Jobs & Economy"
+   ],
+   "ticker": "KXPAYROLLSREV",
+   "title": "Previous jobs numbers revised above <X> in the next jobs report?"
+  },
+  {
+   "additional_prohibitions": [
+    "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+    "Paid employees of the league and league participants",
+    "Owners of teams and the league",
+    "and household members and immediate family of all above",
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Sports"
+   ],
+   "category": "Sports",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/SOCCERGAMEWIN.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/SOCCERGAMEWIN.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "custom",
+   "last_updated_ts": "2026-09-22T22:15:54.803287Z",
+   "settlement_sources": [
+    {
+     "name": "ESPN",
+     "url": "https://www.espn.com/"
+    },
+    {
+     "name": "Fox Sports",
+     "url": "https://www.foxsports.com/"
+    }
+   ],
+   "tags": [
+    "Soccer"
+   ],
+   "ticker": "KXEPL2H",
+   "title": "2nd Half Winner"
+  },
+  {
+   "additional_prohibitions": [
+    "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+    "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+   ],
+   "categories": [
+    "Politics"
+   ],
+   "category": "Politics",
+   "contract_terms_url": "https://assets.kalshi.com/contract_terms/BILL.pdf",
+   "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/BILL.pdf",
+   "exchange_index": 0,
+   "fee_multiplier": 1,
+   "fee_type": "quadratic",
+   "frequency": "custom",
+   "last_updated_ts": "2026-09-16T20:51:22.866951Z",
+   "settlement_sources": [
+    {
+     "name": "White House",
+     "url": "https://whitehouse.gov/"
+    },
+    {
+     "name": "Library of Congress",
+     "url": "https://congress.gov"
+    }
+   ],
+   "tags": [
+    "Congress"
+   ],
+   "ticker": "KXBUYBTC",
+   "title": "Buy BTC"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+ "cursor": "",
+ "trades": [
+  {
+   "count_fp": "300.00",
+   "created_time": "2026-07-30T23:24:24.414552Z",
+   "is_block_trade": false,
+   "no_price_dollars": "0.9900",
+   "taker_book_side": "ask",
+   "taker_outcome_side": "no",
+   "taker_side": "no",
+   "ticker": "KXAPFDDHSPREAD-26JUL30LIBREC-LIB4",
+   "trade_id": "e38b8aaf-7796-468c-a23d-d16f28ffe50c",
+   "yes_price_dollars": "0.0100"
+  }
+ ]
+}
