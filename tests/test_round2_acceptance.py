@@ -440,3 +440,40 @@ def test_readme_and_workflows_explain_caught_up_gating_and_run_counts() -> None:
     assert re.search(r"retain\w*\s+(all|every)\s+runs?", readme)
     assert "caught_up" in workflows
     assert re.search(r"confirm\w*", workflows)
+
+
+def test_a_run_that_kalshi_keeps_throttling_saves_its_work_instead_of_crashing(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    # Sep 29-30, 2026: three runs in a row hit HTTP 429 after retries and crashed,
+    # writing nothing, so each lost its whole backfill. Now the run stops cleanly.
+    module = _archive()
+    from observatory.kalshi.client import KalshiHTTPError
+
+    class Throttled(_SeriesClient):
+        def iter_pages(self, path: str, *, params=None, timestamp=None, **kwargs: Any):
+            if path.rstrip("/").endswith("/events"):
+                raise KalshiHTTPError(429, "https://example.invalid/events", {"error": "too many requests"})
+            yield from super().iter_pages(path, params=params, timestamp=timestamp, **kwargs)
+
+    client = Throttled()
+    monkeypatch.setattr(module, "KalshiClient", lambda: client)
+    archive = module.MonthlyArchive(tmp_path)
+    archive.save_state({"next_month": "2026-07", "months": {}})
+
+    module.run_archive(data_dir=tmp_path, mode="backfill", max_minutes=5)  # no exception
+
+    state = archive.load_state()
+    assert state["metrics"]["stopped_early"] == "Kalshi HTTP 429 after retries"
+    assert state["metrics"]["completed"] is False
+    assert "SLOW" in state["finished_series"]  # the work done before the refusal is kept
+    assert not state.get("caught_up")
+
+    class Broken(_SeriesClient):
+        def iter_pages(self, path: str, **kwargs: Any):
+            raise KalshiHTTPError(404, "https://example.invalid/x", None)
+            yield
+
+    monkeypatch.setattr(module, "KalshiClient", lambda: Broken())
+    with pytest.raises(KalshiHTTPError):  # a real error (not throttling) still fails loudly
+        module.run_archive(data_dir=tmp_path / "other", mode="backfill", max_minutes=5)

@@ -22,7 +22,7 @@ from pathlib import Path
 import time
 from typing import Any
 
-from .client import KalshiClient
+from .client import KalshiClient, KalshiHTTPError
 
 
 DEFAULT_FAST_SAMPLE_RATE = 0.01
@@ -834,7 +834,19 @@ def run_archive(
     state = archive.load_state()
     incremental = mode == "incremental" or (mode == "auto" and bool(state.get("caught_up")))
     archive.defer_state_writes = True
-    completed = collector.collect(cutoff=cutoff, deadline=deadline, incremental=incremental)
+    stopped_early = None
+    try:
+        completed = collector.collect(cutoff=cutoff, deadline=deadline, incremental=incremental)
+    except KalshiHTTPError as error:
+        # Kalshi kept refusing (429 rate limit or 5xx) after the client's own retries.
+        # Keep every finished page instead of crashing: on Sep 29-30, 2026 three runs in a
+        # row died this way and each lost ~25 minutes of backfill, because nothing was
+        # written. Cursors only advance after a page's rows are pending, so saving now is
+        # consistent; the next run resumes from here.
+        if error.status_code not in (429, 500, 502, 503, 504):
+            raise
+        completed = False
+        stopped_early = f"Kalshi HTTP {error.status_code} after retries"
     rows_written = len(archive.pending_rows)
     chunk = archive.write_chunk(archive.pending_rows, run_started_at=run_started_at)
     elapsed = time.monotonic() - started
@@ -849,6 +861,7 @@ def run_archive(
         completed=completed,
         rows_written=rows_written,
         chunk_bytes=chunk.stat().st_size,
+        stopped_early=stopped_early,
     )
     state["metrics"] = metrics
     archive.save_state(state)
@@ -862,6 +875,7 @@ def run_archive(
         f"cumulative_rows={metrics['cumulative_rows_written']} "
         f"cumulative_chunk_bytes={metrics['cumulative_chunk_bytes']} "
         f"elapsed={elapsed:.1f}s"
+        + (f" stopped_early={stopped_early!r}" if stopped_early else "")
     )
     if int(metrics["cumulative_chunk_bytes"]) > SIZE_WARNING_BYTES:
         print("WARNING: Kalshi chunk storage exceeds 250 MB; review the 300 MB repository budget.")
