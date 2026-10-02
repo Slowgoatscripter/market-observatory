@@ -3,6 +3,7 @@
   "caught_up": false,
   "finished_series": [
     "KXACKMANMENTION",
+    "KXALTHOFFMENTION",
     "KXAOCMENTION",
     "KXAPPLEMENTION",
     "KXATHLETEMENTION",
@@ -11,6 +12,7 @@
     "KXBIDENMENTION",
     "KXBONGINOMENTION",
     "KXBRKEM",
+    "KXBRKMENTION",
     "KXBUSHMENTION",
     "KXCARLSONMENTION",
     "KXCARNEYMENTION",
@@ -69,6 +71,7 @@
     "KXEARNINGSMENTIONM",
     "KXEARNINGSMENTIONMCD",
     "KXEARNINGSMENTIONMETA",
+    "KXEARNINGSMENTIONMU",
     "KXEARNINGSMENTIONNBIS",
     "KXEARNINGSMENTIONON",
     "KXEARNINGSMENTIONORCL",
@@ -107,6 +110,7 @@
     "KXINGRAHAMMENTION",
     "KXIRANMOU",
     "KXJPOWMENTION",
+    "KXKARDASHIANMENTION",
     "KXKPAXMENTION",
     "KXLEBRONMENTION",
     "KXLOVEISLMENTION",
@@ -134,6 +138,7 @@
     "KXTNFMENTION",
     "KXTRUMPMENTION",
     "KXTRUMPMENTIONDURATION",
+    "KXTRUMPSAYCOMPANY",
     "KXTRUMPSAYMAM",
     "KXTRUMPTOPIC",
     "KXUBERMENTION",
@@ -149,20 +154,30 @@
     "KXZUCKMENTION"
   ],
   "metrics": {
-    "chunk_bytes": 99151,
+    "chunk_bytes": 7797,
     "completed": false,
-    "cumulative_chunk_bytes": 401631,
-    "cumulative_rows_written": 11334,
-    "elapsed_seconds": 923.458,
+    "cumulative_chunk_bytes": 409428,
+    "cumulative_rows_written": 11531,
+    "elapsed_seconds": 255.414,
     "events_skipped_by_sampling": 0,
-    "markets_kept": 2697,
-    "markets_skipped_by_sampling": 2393,
-    "requests_made": 5057,
-    "rows_written": 2684,
+    "markets_kept": 209,
+    "markets_skipped_by_sampling": 45,
+    "requests_made": 1650,
+    "rows_written": 197,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
     "KXACKMANMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXALTHOFFMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -243,6 +258,16 @@
       }
     },
     "KXBRKEM": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXBRKMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -832,6 +857,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONMU": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONNBIS": {
       "historical": {
         "complete": true,
@@ -1212,6 +1247,16 @@
         "cursor": ""
       }
     },
+    "KXKARDASHIANMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXKPAXMENTION": {
       "historical": {
         "complete": true,
@@ -1479,6 +1524,16 @@
       }
     },
     "KXTRUMPMENTIONDURATION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXTRUMPSAYCOMPANY": {
       "historical": {
         "complete": true,
         "cursor": ""
