@@ -108,6 +108,7 @@
     "KXEARNINGSMENTIONCELH",
     "KXEARNINGSMENTIONCHWY",
     "KXEARNINGSMENTIONCIEN",
+    "KXEARNINGSMENTIONCMG",
     "KXEARNINGSMENTIONCOHR",
     "KXEARNINGSMENTIONCOINBASE",
     "KXEARNINGSMENTIONCOST",
@@ -136,6 +137,7 @@
     "KXEARNINGSMENTIONGM",
     "KXEARNINGSMENTIONGME",
     "KXEARNINGSMENTIONGOOGL",
+    "KXEARNINGSMENTIONGRAB",
     "KXEARNINGSMENTIONGS",
     "KXEARNINGSMENTIONHD",
     "KXEARNINGSMENTIONHLT",
@@ -380,16 +382,16 @@
     "KXZUCKMENTION"
   ],
   "metrics": {
-    "chunk_bytes": 207906,
+    "chunk_bytes": 33724,
     "completed": false,
-    "cumulative_chunk_bytes": 983351,
-    "cumulative_rows_written": 27438,
-    "elapsed_seconds": 1757.881,
+    "cumulative_chunk_bytes": 1017075,
+    "cumulative_rows_written": 28484,
+    "elapsed_seconds": 435.991,
     "events_skipped_by_sampling": 0,
-    "markets_kept": 6188,
-    "markets_skipped_by_sampling": 4744,
-    "requests_made": 12360,
-    "rows_written": 5957,
+    "markets_kept": 1061,
+    "markets_skipped_by_sampling": 39,
+    "requests_made": 2610,
+    "rows_written": 1046,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -1453,6 +1455,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONCMG": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONCOHR": {
       "historical": {
         "complete": true,
@@ -1724,6 +1736,16 @@
       }
     },
     "KXEARNINGSMENTIONGOOGL": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONGRAB": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -3331,6 +3353,12 @@
       "live": {
         "complete": true,
         "cursor": ""
+      }
+    },
+    "KXMLBMENTION": {
+      "historical": {
+        "complete": false,
+        "cursor": "CgsI4aGS0gYQ6IjBBhIcS1hNTEJNRU5USU9OLTI2SlVMMDNNSUxBWi1OTw"
       }
     },
     "KXNADALMENTION": {
