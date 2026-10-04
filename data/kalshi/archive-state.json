@@ -22,6 +22,7 @@
     "KXBENIOFFMENTION",
     "KXBERNIEMENTION",
     "KXBESSENTMTPMENTION",
+    "KXBIANCOMENTION",
     "KXBIDENMENTION",
     "KXBILATERALMENTION",
     "KXBONDIMENTION",
@@ -44,6 +45,7 @@
     "KXCONGRESSMENTION",
     "KXCOSTAMENTION",
     "KXCRMMENTION",
+    "KXCROCKETTMENTION",
     "KXCRYPTOSUMMIT",
     "KXCULTUREMENTION",
     "KXCUOMOMENTION",
@@ -113,6 +115,7 @@
     "KXEARNINGSMENTIONCOINBASE",
     "KXEARNINGSMENTIONCOST",
     "KXEARNINGSMENTIONCRCL",
+    "KXEARNINGSMENTIONCRM",
     "KXEARNINGSMENTIONCRWD",
     "KXEARNINGSMENTIONCRWV",
     "KXEARNINGSMENTIONCVNA",
@@ -140,6 +143,7 @@
     "KXEARNINGSMENTIONGRAB",
     "KXEARNINGSMENTIONGS",
     "KXEARNINGSMENTIONHD",
+    "KXEARNINGSMENTIONHIMS",
     "KXEARNINGSMENTIONHLT",
     "KXEARNINGSMENTIONHOOD",
     "KXEARNINGSMENTIONHPE",
@@ -169,9 +173,12 @@
     "KXEARNINGSMENTIONMELI",
     "KXEARNINGSMENTIONMETA",
     "KXEARNINGSMENTIONMKC",
+    "KXEARNINGSMENTIONMS",
+    "KXEARNINGSMENTIONMSFT",
     "KXEARNINGSMENTIONMTN",
     "KXEARNINGSMENTIONMU",
     "KXEARNINGSMENTIONNBIS",
+    "KXEARNINGSMENTIONNFLX",
     "KXEARNINGSMENTIONNKE",
     "KXEARNINGSMENTIONNYT",
     "KXEARNINGSMENTIONOKLO",
@@ -203,6 +210,7 @@
     "KXEARNINGSMENTIONSTZ",
     "KXEARNINGSMENTIONSYUM",
     "KXEARNINGSMENTIONTGT",
+    "KXEARNINGSMENTIONTOL",
     "KXEARNINGSMENTIONTOST",
     "KXEARNINGSMENTIONTSMC",
     "KXEARNINGSMENTIONTTWO",
@@ -230,6 +238,7 @@
     "KXFEDMENTIONDURATION",
     "KXFIGHTMENTION",
     "KXFIGMENTION",
+    "KXFINKMENTION",
     "KXFNSMENTION",
     "KXFOMCTONE",
     "KXFOXNEWSMENTION",
@@ -264,12 +273,14 @@
     "KXJPOWMENTION",
     "KXKAMALAMENTION",
     "KXKARDASHIANMENTION",
+    "KXKARPMENTION",
     "KXKHANNAMENTION",
     "KXKIMMELMENTION",
     "KXKINGMENTION",
     "KXKPAXMENTION",
     "KXKXDJTHANNITY",
     "KXLASTWORDCOUNT",
+    "KXLASTWORDMENTION",
     "KXLATENIGHTMENTION",
     "KXLEAVITTLATE",
     "KXLEAVITTMENTION",
@@ -326,6 +337,7 @@
     "KXSASMITH",
     "KXSCHUMERMENTION",
     "KXSHAQMENTION",
+    "KXSNFMENTION",
     "KXSNLMENTION",
     "KXSNOOPMENTION",
     "KXSOUTHPARKMENTION",
@@ -354,12 +366,14 @@
     "KXTRUMPSAY",
     "KXTRUMPSAYCOMPANY",
     "KXTRUMPSAYCOUNTRY",
+    "KXTRUMPSAYEP",
     "KXTRUMPSAYMAM",
     "KXTRUMPSAYNICKNAME",
     "KXTRUMPSAYSCAM",
     "KXTRUMPSAYTRUMP",
     "KXTRUMPTOPIC",
     "KXTRUMPZELENSKYY",
+    "KXTSLAMENTION",
     "KXUBERMENTION",
     "KXUEFAMENTION",
     "KXUNMENTION",
@@ -367,6 +381,7 @@
     "KXVIEWMENTION",
     "KXVLADTENEVMENTION",
     "KXVZMENTION",
+    "KXWALLERMENTION",
     "KXWALZMENTION",
     "KXWARSHMENTION",
     "KXWATTERSMENTION",
@@ -379,19 +394,20 @@
     "KXWWDCMENTION",
     "KXZELENSKYYMENTION",
     "KXZIWEMENTION",
+    "KXZMMENTION",
     "KXZUCKMENTION"
   ],
   "metrics": {
-    "chunk_bytes": 33724,
+    "chunk_bytes": 29419,
     "completed": false,
-    "cumulative_chunk_bytes": 1017075,
-    "cumulative_rows_written": 28484,
-    "elapsed_seconds": 435.991,
+    "cumulative_chunk_bytes": 1046494,
+    "cumulative_rows_written": 29245,
+    "elapsed_seconds": 405.497,
     "events_skipped_by_sampling": 0,
-    "markets_kept": 1061,
-    "markets_skipped_by_sampling": 39,
-    "requests_made": 2610,
-    "rows_written": 1046,
+    "markets_kept": 776,
+    "markets_skipped_by_sampling": 818,
+    "requests_made": 2382,
+    "rows_written": 761,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -586,6 +602,16 @@
       }
     },
     "KXBESSENTMTPMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXBIANCOMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -806,6 +832,16 @@
       }
     },
     "KXCRMMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXCROCKETTMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -1505,6 +1541,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONCRM": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONCRWD": {
       "historical": {
         "complete": true,
@@ -1766,6 +1812,16 @@
       }
     },
     "KXEARNINGSMENTIONHD": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONHIMS": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -2065,6 +2121,26 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONMS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONMSFT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONMTN": {
       "historical": {
         "complete": true,
@@ -2086,6 +2162,16 @@
       }
     },
     "KXEARNINGSMENTIONNBIS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONNFLX": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -2405,6 +2491,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONTOL": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONTOST": {
       "historical": {
         "complete": true,
@@ -2666,6 +2762,16 @@
       }
     },
     "KXFIGMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXFINKMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -3015,6 +3121,16 @@
         "cursor": ""
       }
     },
+    "KXKARPMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXKHANNAMENTION": {
       "historical": {
         "complete": true,
@@ -3066,6 +3182,16 @@
       }
     },
     "KXLASTWORDCOUNT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXLASTWORDMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -3647,6 +3773,16 @@
         "cursor": ""
       }
     },
+    "KXSNFMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXSNLMENTION": {
       "historical": {
         "complete": true,
@@ -3927,6 +4063,16 @@
         "cursor": ""
       }
     },
+    "KXTRUMPSAYEP": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXTRUMPSAYMAM": {
       "historical": {
         "complete": true,
@@ -3978,6 +4124,16 @@
       }
     },
     "KXTRUMPZELENSKYY": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXTSLAMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -4048,6 +4204,16 @@
       }
     },
     "KXVZMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXWALLERMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -4168,6 +4334,16 @@
       }
     },
     "KXZIWEMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXZMMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
