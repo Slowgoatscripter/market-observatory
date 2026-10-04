@@ -32,6 +32,7 @@
     "KXBRKMENTION",
     "KXBTCMENTIONULBRICHT",
     "KXBTCMENTIONVANCE",
+    "KXBURNHAMMENTION",
     "KXBUSHMENTION",
     "KXBUSINESSROUNDTABLE",
     "KXCANDEBMENTION",
@@ -219,6 +220,7 @@
     "KXEARNINGSMENTIONULTA",
     "KXEARNINGSMENTIONURBN",
     "KXEARNINGSMENTIONV",
+    "KXEARNINGSMENTIONVSCO",
     "KXEARNINGSMENTIONVZ",
     "KXEARNINGSMENTIONWEN",
     "KXEARNINGSMENTIONWFC",
@@ -235,6 +237,7 @@
     "KXENTMENTION",
     "KXEPLMENTION",
     "KXFEDGOVMENTION",
+    "KXFEDMENTION",
     "KXFEDMENTIONDURATION",
     "KXFIGHTMENTION",
     "KXFIGMENTION",
@@ -309,6 +312,8 @@
     "KXMENTIONEARNWGO",
     "KXMINAJMENTION",
     "KXMIRANMENTION",
+    "KXMRBEASTMENTION",
+    "KXMTGMENTION",
     "KXNADALMENTION",
     "KXNASCARMENTION",
     "KXNCAABMENTION",
@@ -349,6 +354,7 @@
     "KXSTARMERMENTIONB",
     "KXSTEYERMENTION",
     "KXSTUBBMENTION",
+    "KXSURVIVORMENTION",
     "KXSWIFTMENTION",
     "KXTALARICOMENTION",
     "KXTBLAMENTION",
@@ -398,16 +404,16 @@
     "KXZUCKMENTION"
   ],
   "metrics": {
-    "chunk_bytes": 29419,
+    "chunk_bytes": 62773,
     "completed": false,
-    "cumulative_chunk_bytes": 1046494,
-    "cumulative_rows_written": 29245,
-    "elapsed_seconds": 405.497,
+    "cumulative_chunk_bytes": 1109267,
+    "cumulative_rows_written": 30843,
+    "elapsed_seconds": 875.298,
     "events_skipped_by_sampling": 0,
-    "markets_kept": 776,
-    "markets_skipped_by_sampling": 818,
-    "requests_made": 2382,
-    "rows_written": 761,
+    "markets_kept": 1642,
+    "markets_skipped_by_sampling": 49,
+    "requests_made": 6483,
+    "rows_written": 1598,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -702,6 +708,16 @@
       }
     },
     "KXBTCMENTIONVANCE": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXBURNHAMMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -2581,6 +2597,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONVSCO": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONVZ": {
       "historical": {
         "complete": true,
@@ -2732,6 +2758,16 @@
       }
     },
     "KXFEDGOVMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXFEDMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -3487,6 +3523,26 @@
         "cursor": "CgsI4aGS0gYQ6IjBBhIcS1hNTEJNRU5USU9OLTI2SlVMMDNNSUxBWi1OTw"
       }
     },
+    "KXMRBEASTMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXMTGMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXNADALMENTION": {
       "historical": {
         "complete": true,
@@ -3884,6 +3940,16 @@
       }
     },
     "KXSTUBBMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXSURVIVORMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
