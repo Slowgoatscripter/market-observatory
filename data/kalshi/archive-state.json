@@ -445,16 +445,16 @@
     "KXZUCKMENTION"
   ],
   "metrics": {
-    "chunk_bytes": 184963,
+    "chunk_bytes": 260,
     "completed": false,
-    "cumulative_chunk_bytes": 1359587,
+    "cumulative_chunk_bytes": 1359847,
     "cumulative_rows_written": 37935,
-    "elapsed_seconds": 1622.665,
+    "elapsed_seconds": 209.756,
     "events_skipped_by_sampling": 0,
-    "markets_kept": 5277,
-    "markets_skipped_by_sampling": 1086,
-    "requests_made": 12610,
-    "rows_written": 5269,
+    "markets_kept": 0,
+    "markets_skipped_by_sampling": 19,
+    "requests_made": 1249,
+    "rows_written": 0,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
