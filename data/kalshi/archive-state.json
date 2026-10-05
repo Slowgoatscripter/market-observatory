@@ -369,6 +369,7 @@
     "KXPRESMENTION",
     "KXPSAKIMENTION",
     "KXRDDTMENTION",
+    "KXREEVESMENTION",
     "KXRFKMENTION",
     "KXROGANMENTION",
     "KXRUBIOMENTION",
@@ -445,16 +446,16 @@
     "KXZUCKMENTION"
   ],
   "metrics": {
-    "chunk_bytes": 260,
+    "chunk_bytes": 820,
     "completed": false,
-    "cumulative_chunk_bytes": 1359847,
-    "cumulative_rows_written": 37935,
-    "elapsed_seconds": 209.756,
+    "cumulative_chunk_bytes": 1360667,
+    "cumulative_rows_written": 37947,
+    "elapsed_seconds": 222.318,
     "events_skipped_by_sampling": 0,
-    "markets_kept": 0,
-    "markets_skipped_by_sampling": 19,
-    "requests_made": 1249,
-    "rows_written": 0,
+    "markets_kept": 12,
+    "markets_skipped_by_sampling": 148,
+    "requests_made": 1533,
+    "rows_written": 12,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -4131,6 +4132,16 @@
       }
     },
     "KXRDDTMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXREEVESMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
