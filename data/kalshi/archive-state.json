@@ -110,6 +110,7 @@
     "KXEARNINGSMENTIONAXP",
     "KXEARNINGSMENTIONAZO",
     "KXEARNINGSMENTIONBA",
+    "KXEARNINGSMENTIONBAC",
     "KXEARNINGSMENTIONBB",
     "KXEARNINGSMENTIONBJ",
     "KXEARNINGSMENTIONBLK",
@@ -236,6 +237,7 @@
     "KXEARNINGSMENTIONTLN",
     "KXEARNINGSMENTIONTOL",
     "KXEARNINGSMENTIONTOST",
+    "KXEARNINGSMENTIONTSLA",
     "KXEARNINGSMENTIONTSMC",
     "KXEARNINGSMENTIONTTWO",
     "KXEARNINGSMENTIONUAL",
@@ -309,6 +311,7 @@
     "KXKIRKMENTION",
     "KXKPAXMENTION",
     "KXKXDJTHANNITY",
+    "KXLAMMYMENTION",
     "KXLASTWORDCOUNT",
     "KXLASTWORDMENTION",
     "KXLATENIGHTMENTION",
@@ -447,16 +450,16 @@
     "KXZUCKMENTION"
   ],
   "metrics": {
-    "chunk_bytes": 1548,
+    "chunk_bytes": 35539,
     "completed": false,
-    "cumulative_chunk_bytes": 1362215,
-    "cumulative_rows_written": 37985,
-    "elapsed_seconds": 139.527,
+    "cumulative_chunk_bytes": 1397754,
+    "cumulative_rows_written": 39017,
+    "elapsed_seconds": 505.784,
     "events_skipped_by_sampling": 0,
-    "markets_kept": 38,
-    "markets_skipped_by_sampling": 168,
-    "requests_made": 1072,
-    "rows_written": 38,
+    "markets_kept": 1032,
+    "markets_skipped_by_sampling": 350,
+    "requests_made": 3358,
+    "rows_written": 1032,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -1531,6 +1534,16 @@
       }
     },
     "KXEARNINGSMENTIONBA": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONBAC": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -2800,6 +2813,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONTSLA": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONTSMC": {
       "historical": {
         "complete": true,
@@ -3530,6 +3553,16 @@
         "cursor": ""
       }
     },
+    "KXLAMMYMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXLASTWORDCOUNT": {
       "historical": {
         "complete": true,
@@ -3929,7 +3962,7 @@
     "KXNBAMENTION": {
       "historical": {
         "complete": false,
-        "cursor": "CgwIh_mAzgYQwOqLqQISH0tYTkJBTUVOVElPTi0yNk1BUjI0T1JMQ0xFLVJPQ0s"
+        "cursor": "CgsIkNyWzQYQiNXGKRIfS1hOQkFNRU5USU9OLTI2TUFSMDJCT1NNSUwtQUlSQg"
       }
     },
     "KXNCAABMENTION": {
