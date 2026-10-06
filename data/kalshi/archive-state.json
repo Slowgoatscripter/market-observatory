@@ -202,6 +202,7 @@
     "KXEARNINGSMENTIONNFLX",
     "KXEARNINGSMENTIONNIO",
     "KXEARNINGSMENTIONNKE",
+    "KXEARNINGSMENTIONNVDA",
     "KXEARNINGSMENTIONNYT",
     "KXEARNINGSMENTIONOKLO",
     "KXEARNINGSMENTIONON",
@@ -450,16 +451,16 @@
     "KXZUCKMENTION"
   ],
   "metrics": {
-    "chunk_bytes": 35539,
+    "chunk_bytes": 4541,
     "completed": false,
-    "cumulative_chunk_bytes": 1397754,
-    "cumulative_rows_written": 39017,
-    "elapsed_seconds": 505.784,
+    "cumulative_chunk_bytes": 1402295,
+    "cumulative_rows_written": 39122,
+    "elapsed_seconds": 276.082,
     "events_skipped_by_sampling": 0,
-    "markets_kept": 1032,
-    "markets_skipped_by_sampling": 350,
-    "requests_made": 3358,
-    "rows_written": 1032,
+    "markets_kept": 105,
+    "markets_skipped_by_sampling": 42,
+    "requests_made": 1631,
+    "rows_written": 105,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -2454,6 +2455,16 @@
       }
     },
     "KXEARNINGSMENTIONNKE": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONNVDA": {
       "historical": {
         "complete": true,
         "cursor": ""
