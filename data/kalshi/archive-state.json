@@ -86,6 +86,7 @@
     "KXEARNINGSMENTIONAAL",
     "KXEARNINGSMENTIONAAOI",
     "KXEARNINGSMENTIONAAP",
+    "KXEARNINGSMENTIONAAPL",
     "KXEARNINGSMENTIONABNB",
     "KXEARNINGSMENTIONAC",
     "KXEARNINGSMENTIONACA",
@@ -452,16 +453,16 @@
     "KXZUCKMENTION"
   ],
   "metrics": {
-    "chunk_bytes": 260,
+    "chunk_bytes": 38739,
     "completed": false,
-    "cumulative_chunk_bytes": 1403949,
-    "cumulative_rows_written": 39153,
-    "elapsed_seconds": 203.68,
+    "cumulative_chunk_bytes": 1442688,
+    "cumulative_rows_written": 40242,
+    "elapsed_seconds": 453.868,
     "events_skipped_by_sampling": 0,
-    "markets_kept": 0,
+    "markets_kept": 1089,
     "markets_skipped_by_sampling": 19,
-    "requests_made": 1544,
-    "rows_written": 0,
+    "requests_made": 2782,
+    "rows_written": 1089,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -1296,6 +1297,16 @@
       }
     },
     "KXEARNINGSMENTIONAAP": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONAAPL": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -3908,7 +3919,7 @@
     "KXMLBMENTION": {
       "historical": {
         "complete": false,
-        "cursor": "CgsI4aGS0gYQ6IjBBhIcS1hNTEJNRU5USU9OLTI2SlVMMDNNSUxBWi1OTw"
+        "cursor": "CgwIyY-00AYQuMm7wgISH0tYTUxCTUVOVElPTi0yNk1BWTIyREVUQkFMLVRSQUQ"
       }
     },
     "KXMRBEASTMENTION": {
