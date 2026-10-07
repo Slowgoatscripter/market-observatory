@@ -294,6 +294,7 @@
     "KXHEARINGMENTION",
     "KXHEGSETHMENTION",
     "KXHILLARYMENTION",
+    "KXHILTONMENTION",
     "KXHOCHULMENTION",
     "KXHOMANMENTION",
     "KXINFANTINOMENTION",
@@ -451,16 +452,16 @@
     "KXZUCKMENTION"
   ],
   "metrics": {
-    "chunk_bytes": 4541,
+    "chunk_bytes": 1394,
     "completed": false,
-    "cumulative_chunk_bytes": 1402295,
-    "cumulative_rows_written": 39122,
-    "elapsed_seconds": 276.082,
+    "cumulative_chunk_bytes": 1403689,
+    "cumulative_rows_written": 39153,
+    "elapsed_seconds": 118.359,
     "events_skipped_by_sampling": 0,
-    "markets_kept": 105,
-    "markets_skipped_by_sampling": 42,
-    "requests_made": 1631,
-    "rows_written": 105,
+    "markets_kept": 31,
+    "markets_skipped_by_sampling": 204,
+    "requests_made": 843,
+    "rows_written": 31,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -3375,6 +3376,16 @@
       }
     },
     "KXHILLARYMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXHILTONMENTION": {
       "historical": {
         "complete": true,
         "cursor": ""
