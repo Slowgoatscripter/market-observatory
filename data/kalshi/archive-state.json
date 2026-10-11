@@ -158,6 +158,7 @@
     "KXAPSUIT",
     "KXARGNACBBTTS",
     "KXARGNACBSPREAD",
+    "KXARIMPEACH",
     "KXARMSTRONGMENTION",
     "KXARPRIMARY",
     "KXARTEMISII",
@@ -404,6 +405,7 @@
     "KXDEBUTSONGRANK",
     "KXDEBUTSONGRANKMWIACB",
     "KXDEELRIP",
+    "KXDEEPSEEKV4RELEASE",
     "KXDEMPROGRESSIVESENATESWEEP",
     "KXDEMSTATESUPERMAJ",
     "KXDEMTRIFECTA2026",
@@ -796,6 +798,7 @@
     "KXGOOGLELAKE",
     "KXGOOGLMENTION",
     "KXGOOGVREQ",
+    "KXGOPMIDTERMSSEATS",
     "KXGORTONDENTON2ND",
     "KXGORTONDENTONMOV",
     "KXGOVCONOMD",
@@ -857,6 +860,7 @@
     "KXHOGGREMOVE",
     "KXHOLBORNPLACE2ND",
     "KXHOLBORNPLACE3RD",
+    "KXHOLEINONE",
     "KXHOMANMENTION",
     "KXHOMEUS",
     "KXHOODA",
@@ -898,6 +902,7 @@
     "KXIOTA",
     "KXIPCGAZA",
     "KXIPLFINAL",
+    "KXIPLFIRST6",
     "KXIPOAIRTABLE",
     "KXIPODEEL",
     "KXIPOOURA",
@@ -1055,6 +1060,7 @@
     "KXMCDMENTION",
     "KXMCGREGORFIGHTNEXT",
     "KXMCMEN",
+    "KXMCMETAPHOR",
     "KXMCSILENTHILL2",
     "KXMCSILENTHILLF",
     "KXMCTHEALTERS",
@@ -1081,11 +1087,13 @@
     "KXMENTIONEARNWGO",
     "KXMI13D",
     "KXMICH",
+    "KXMICHELINSEA",
     "KXMICONSTITUTION",
     "KXMIDTERMMOV",
     "KXMINAJMENTION",
     "KXMIRANMENTION",
     "KXMISENGOVCOMBO",
+    "KXMJACKSON",
     "KXMLBALCSMVP",
     "KXMLBAWARDCOMBO",
     "KXMLBDRAFTTOP",
@@ -1224,6 +1232,7 @@
     "KXNEXTLEADERPRES",
     "KXNEXTMANAGERCHELSEA",
     "KXNEXTROMANIAPM",
+    "KXNEXTSPEAKER",
     "KXNEXTTEAMGIANNIS",
     "KXNFL1HFT",
     "KXNFL2HSPREAD",
@@ -1263,6 +1272,7 @@
     "KXNHLOVERTIME",
     "KXNHLPLAYOFFGOALS",
     "KXNHLSEASONGOALS",
+    "KXNHLWSTREAK",
     "KXNIBORDERCALL",
     "KXNIGERIASENATE",
     "KXNIOA",
@@ -1304,6 +1314,7 @@
     "KXPANAMATRAFFIC",
     "KXPARAGUAYSENATE",
     "KXPARDONSYEAR",
+    "KXPATELCOUNT",
     "KXPATH",
     "KXPATIENTSMONOPOLIES",
     "KXPAULMENTION",
@@ -1324,6 +1335,7 @@
     "KXPHILIPPINESPRES",
     "KXPICKLEBALLMATCH",
     "KXPLATINUM15M",
+    "KXPLATNERTWEET",
     "KXPLAYTOGETHERJBJT",
     "KXPNEUMONICPLAGUE",
     "KXPODCASTGUESTNEWHEIGHTS",
@@ -1390,6 +1402,7 @@
     "KXRTATLANTIS",
     "KXRTCHALLENGERS",
     "KXRTEIP",
+    "KXRTFLYMETOTHEMOON",
     "KXRTHEARTEYES",
     "KXRTHUNTFORGOLLUM",
     "KXRTICKET",
@@ -1498,6 +1511,7 @@
     "KXSPURRERUPT",
     "KXSQUASHMATCH",
     "KXSRBIASTUDENT",
+    "KXSRBSLBTTS",
     "KXSTARMERMENTION",
     "KXSTARMERMENTIONB",
     "KXSTARTNOTREDAME",
@@ -1526,6 +1540,7 @@
     "KXT20WORLDCUP",
     "KXTABLETENNISMATCH",
     "KXTAICHUNGMAYOR",
+    "KXTAKAICHILDP",
     "KXTALARICOMENTION",
     "KXTALLSHIPRACE",
     "KXTARIFFBILL",
@@ -1697,6 +1712,7 @@
     "KXVENZUELAMILITARY",
     "KXVGA",
     "KXVICTORIA2ND",
+    "KXVIDEOGAMESADS",
     "KXVIEWMENTION",
     "KXVINE",
     "KXVLADTENEVMENTION",
@@ -1825,6 +1841,7 @@
     "OSCARSUPACTO",
     "OSCARSUPACTR",
     "POPVOTEKHCA",
+    "POPVOTEKHNM",
     "PRESNOM-D",
     "PRESPARTYMD",
     "PRESPARTYNE3",
@@ -1839,6 +1856,7 @@
     "RTMICKEY17",
     "RTOBX",
     "SENATEDE",
+    "SENATEIN",
     "SENATEME",
     "SENATEMI",
     "SENATENE",
@@ -1870,17 +1888,17 @@
     "WTIMAX"
   ],
   "metrics": {
-    "chunk_bytes": 34135,
+    "chunk_bytes": 54051,
     "completed": false,
-    "cumulative_chunk_bytes": 2139979,
-    "cumulative_rows_written": 64811,
-    "elapsed_seconds": 450.006,
-    "events_skipped_by_sampling": 1545,
-    "markets_kept": 1106,
-    "markets_skipped_by_sampling": 0,
-    "requests_made": 2632,
-    "rows_written": 1106,
-    "stopped_early": "Kalshi HTTP 429 after retries"
+    "cumulative_chunk_bytes": 2194030,
+    "cumulative_rows_written": 75871,
+    "elapsed_seconds": 2584.809,
+    "events_skipped_by_sampling": 10156,
+    "markets_kept": 11060,
+    "markets_skipped_by_sampling": 1,
+    "requests_made": 17265,
+    "rows_written": 11060,
+    "stopped_early": null
   },
   "series": {
     "1SONG-DRAKE": {
@@ -3421,6 +3439,16 @@
         }
       }
     },
+    "KXARIMPEACH": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXARMSTRONGMENTION": {
       "historical": {
         "complete": true,
@@ -4797,6 +4825,964 @@
       "live": {
         "complete": true,
         "cursor": ""
+      }
+    },
+    "KXBTCD": {
+      "events": {
+        "complete": false,
+        "cursor": "CgYI7J2uwQYSEEtYQlRDRC0yNU1BWTE5MTY"
+      },
+      "selected_events": {
+        "KXBTCD-25AUG0413": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25AUG1512": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25AUG2116": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25AUG2611": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25AUG2809": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25DEC0114": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25DEC0118": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25DEC2620": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25DEC3015": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25JUL0300": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25JUL0423": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25JUL0721": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25JUL1921": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25JUL2218": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25JUL2811": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25JUL2813": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25JUL2819": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25JUN0113": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25JUN2012": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25JUN2312": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25JUN2522": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25MAY2310": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25MAY2311": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25MAY2418": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25NOV0720": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25NOV1810": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25NOV2517": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25OCT0410": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25OCT0923": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25OCT1622": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25OCT2211": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25OCT2711": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25OCT2712": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25SEP1220": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25SEP2017": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25SEP2319": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-25SEP2322": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26APR0922": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26APR1200": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26APR2118": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26APR2817": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26AUG0310": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26AUG0403": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26AUG1218": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26AUG2311": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26FEB0302": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26FEB0307": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26FEB0310": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26FEB0610": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26FEB1015": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26FEB1201": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26FEB1303": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26FEB1510": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26FEB2212": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26FEB2319": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JAN0116": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JAN0210": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JAN0718": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JAN1000": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JAN1703": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUL1320": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUL1714": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUL1909": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUL2317": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUL2321": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUL3105": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUN0304": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUN0915": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUN1208": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUN1814": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUN1913": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUN2204": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUN2912": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26JUN3021": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26MAR0205": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26MAR0515": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26MAR0609": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26MAR1517": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26MAR1601": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26MAR2211": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26MAR2319": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26MAR3018": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26MAY0500": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26MAY1014": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26MAY1400": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26MAY1412": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26OCT0502": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26SEP1504": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26SEP1520": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26SEP1616": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26SEP1617": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26SEP1711": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26SEP2311": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26SEP2313": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTCD-26SEP2806": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
       }
     },
     "KXBTCMAXMON": {
@@ -6438,6 +7424,16 @@
       }
     },
     "KXDEELRIP": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXDEEPSEEKV4RELEASE": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -10295,6 +11291,16 @@
         "cursor": ""
       }
     },
+    "KXGOPMIDTERMSSEATS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXGORTONDENTON2ND": {
       "historical": {
         "complete": true,
@@ -10901,6 +11907,12 @@
         "cursor": ""
       }
     },
+    "KXHOLEINONE": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXHOMANMENTION": {
       "historical": {
         "complete": true,
@@ -11282,6 +12294,12 @@
       }
     },
     "KXIPLFINAL": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXIPLFIRST6": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -12817,6 +13835,16 @@
         "cursor": ""
       }
     },
+    "KXMCMETAPHOR": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXMCSILENTHILL2": {
       "historical": {
         "complete": true,
@@ -13077,6 +14105,16 @@
         "cursor": ""
       }
     },
+    "KXMICHELINSEA": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXMICONSTITUTION": {
       "historical": {
         "complete": true,
@@ -13118,6 +14156,16 @@
       }
     },
     "KXMISENGOVCOMBO": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXMJACKSON": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -15817,6 +16865,16 @@
         "cursor": ""
       }
     },
+    "KXNEXTSPEAKER": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXNEXTTEAMGIANNIS": {
       "events": {
         "complete": true,
@@ -16256,6 +17314,12 @@
       }
     },
     "KXNHLSEASONGOALS": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXNHLWSTREAK": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -16737,6 +17801,16 @@
         "cursor": ""
       }
     },
+    "KXPATELCOUNT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXPATH": {
       "historical": {
         "complete": true,
@@ -16900,6 +17974,16 @@
       }
     },
     "KXPLATINUM15M": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXPLATNERTWEET": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -17600,6 +18684,16 @@
       }
     },
     "KXRTEIP": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXRTFLYMETOTHEMOON": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -18781,6 +19875,12 @@
         "cursor": ""
       }
     },
+    "KXSRBSLBTTS": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXSTARMERMENTION": {
       "historical": {
         "complete": true,
@@ -19032,6 +20132,16 @@
       }
     },
     "KXTAICHUNGMAYOR": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXTAKAICHILDP": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -21839,6 +22949,16 @@
         "cursor": ""
       }
     },
+    "KXVIDEOGAMESADS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXVIEWMENTION": {
       "historical": {
         "complete": true,
@@ -23145,6 +24265,16 @@
         "cursor": ""
       }
     },
+    "POPVOTEKHNM": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "PRESNOM-D": {
       "historical": {
         "complete": true,
@@ -23276,6 +24406,16 @@
       }
     },
     "SENATEDE": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "SENATEIN": {
       "historical": {
         "complete": true,
         "cursor": ""
