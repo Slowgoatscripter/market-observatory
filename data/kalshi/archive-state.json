@@ -25,6 +25,7 @@
     "APPRANK",
     "APPRANKPAID",
     "APRPOTUS",
+    "ARGCENTRALBANK",
     "ARTICICE",
     "AVATARSEASON2",
     "AVGTEMP",
@@ -2695,6 +2696,7 @@
     "KXMEDIARELEASEST",
     "KXMEDIARELEASEUPONLY",
     "KXMEEKMILLAI",
+    "KXMEETPTZ",
     "KXMEGATSUNAMICOMBO",
     "KXMEISSNER",
     "KXMELANIAMENTION",
@@ -3956,6 +3958,7 @@
     "KXSERBIASNSMOV",
     "KXSERIEA1HBTTS",
     "KXSERIEA2H",
+    "KXSERIEA2HBTTS",
     "KXSERIEA2HTOTAL",
     "KXSERIEABTTS",
     "KXSERIEACORNERS",
@@ -5275,16 +5278,16 @@
     "WTIMIN"
   ],
   "metrics": {
-    "chunk_bytes": 15761,
+    "chunk_bytes": 514,
     "completed": false,
-    "cumulative_chunk_bytes": 3963882,
-    "cumulative_rows_written": 171978,
-    "elapsed_seconds": 649.955,
-    "events_skipped_by_sampling": 603,
-    "markets_kept": 544,
-    "markets_skipped_by_sampling": 974,
-    "requests_made": 4593,
-    "rows_written": 534,
+    "cumulative_chunk_bytes": 3964396,
+    "cumulative_rows_written": 171984,
+    "elapsed_seconds": 196.095,
+    "events_skipped_by_sampling": 60,
+    "markets_kept": 6,
+    "markets_skipped_by_sampling": 3,
+    "requests_made": 1275,
+    "rows_written": 6,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -5509,6 +5512,16 @@
       }
     },
     "APRPOTUS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "ARGCENTRALBANK": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -37874,6 +37887,16 @@
         "cursor": ""
       }
     },
+    "KXMEETPTZ": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXMEGATSUNAMICOMBO": {
       "historical": {
         "complete": true,
@@ -52582,6 +52605,12 @@
             "cursor": ""
           }
         }
+      }
+    },
+    "KXSERIEA2HBTTS": {
+      "events": {
+        "complete": true,
+        "cursor": ""
       }
     },
     "KXSERIEA2HTOTAL": {
