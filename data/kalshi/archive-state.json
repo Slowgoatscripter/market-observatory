@@ -1013,6 +1013,7 @@
     "KXCONGRESSTARIFFPASS",
     "KXCONGRESSTESTIFY",
     "KXCONMEBOLLIB",
+    "KXCONMEBOLLIB1H",
     "KXCONMEBOLLIBBTTS",
     "KXCONMEBOLLIBTEAMTOTAL",
     "KXCONMEBOLLIBTOTAL",
@@ -1676,6 +1677,7 @@
     "KXF1CONSTRUCTORS",
     "KXF1DELAY",
     "KXF1FASTESTLAP",
+    "KXF1POLEPOSITION",
     "KXF1RACEPODIUM",
     "KXF1RACETOP5",
     "KXF1RACETOPX",
@@ -1743,6 +1745,7 @@
     "KXFIBASPREAD",
     "KXFIFALEAVE",
     "KXFIFASPREAD",
+    "KXFIFAUSPULL",
     "KXFIG",
     "KXFIGHTMENTION",
     "KXFIGMENTION",
@@ -3734,6 +3737,7 @@
     "KXRTCOMPARISON",
     "KXRTCONCLAVE",
     "KXRTCONJURING",
+    "KXRTDEADPOOL3",
     "KXRTDESPICABLEME4",
     "KXRTEIP",
     "KXRTFLYMETOTHEMOON",
@@ -5220,6 +5224,7 @@
     "VANRATEMC",
     "VANRATENE",
     "VARBA2",
+    "VAROMIC",
     "VAXXDEP",
     "VAXXKID",
     "VISIONPRO",
@@ -5231,16 +5236,16 @@
     "WTIMIN"
   ],
   "metrics": {
-    "chunk_bytes": 186982,
+    "chunk_bytes": 769,
     "completed": false,
-    "cumulative_chunk_bytes": 3947352,
-    "cumulative_rows_written": 171433,
-    "elapsed_seconds": 1906.187,
-    "events_skipped_by_sampling": 5056,
-    "markets_kept": 6607,
-    "markets_skipped_by_sampling": 241,
-    "requests_made": 12428,
-    "rows_written": 6481,
+    "cumulative_chunk_bytes": 3948121,
+    "cumulative_rows_written": 171444,
+    "elapsed_seconds": 203.306,
+    "events_skipped_by_sampling": 30,
+    "markets_kept": 11,
+    "markets_skipped_by_sampling": 0,
+    "requests_made": 1463,
+    "rows_written": 11,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -18204,6 +18209,12 @@
         "cursor": ""
       }
     },
+    "KXCONMEBOLLIB1H": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXCONMEBOLLIBBTTS": {
       "events": {
         "complete": true,
@@ -26664,6 +26675,12 @@
         "cursor": ""
       }
     },
+    "KXF1POLEPOSITION": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXF1RACEPODIUM": {
       "events": {
         "complete": true,
@@ -27317,6 +27334,12 @@
       }
     },
     "KXFIFASPREAD": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXFIFAUSPULL": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -50246,6 +50269,16 @@
         "cursor": ""
       }
     },
+    "KXRTDEADPOOL3": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXRTDESPICABLEME4": {
       "historical": {
         "complete": true,
@@ -69553,6 +69586,16 @@
       }
     },
     "VARBA2": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "VAROMIC": {
       "historical": {
         "complete": true,
         "cursor": ""
