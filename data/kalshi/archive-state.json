@@ -1018,6 +1018,7 @@
     "KXBTC2026250",
     "KXBTC50VS100",
     "KXBTC75VS100",
+    "KXBTCATH",
     "KXBTCE",
     "KXBTCETHATH",
     "KXBTCETHRETURN",
@@ -2219,6 +2220,7 @@
     "KXFEDDISSENTYEAR",
     "KXFEDEMPLOYEES",
     "KXFEDERALCHARGE",
+    "KXFEDFREQ",
     "KXFEDGOVMENTION",
     "KXFEDGOVNOM",
     "KXFEDHIKE",
@@ -2940,6 +2942,7 @@
     "KXITC",
     "KXITFWDOUBLES",
     "KXITGDPQOQA",
+    "KXITTFWOMENMATCH",
     "KXIVONESCIMAB",
     "KXIVYFUNDING",
     "KXJ2LEAGUEADVANCE",
@@ -3556,6 +3559,7 @@
     "KXMLBF5SPREAD",
     "KXMLBF5TOTAL",
     "KXMLBFASTPITCH",
+    "KXMLBFTGAME",
     "KXMLBHR",
     "KXMLBHRDERBY",
     "KXMLBHRDERBY500",
@@ -4259,6 +4263,7 @@
     "KXNFLSTAGEOFELIM",
     "KXNFLSUPDRAFTPICK",
     "KXNFLT100",
+    "KXNFLTEAM1POS",
     "KXNFLTEAMDPTS",
     "KXNFLTEAMFG",
     "KXNFLTEAMTOTAL",
@@ -4874,6 +4879,7 @@
     "KXREVOKECITIZENSHIP",
     "KXRFKCOUNT",
     "KXRFKMENTION",
+    "KXRFKSHARE",
     "KXRGOVCOUNT",
     "KXRHGOLD",
     "KXRHIPAL",
@@ -5806,6 +5812,7 @@
     "KXTRUMPEXITAPPROVE",
     "KXTRUMPFOOTBALL",
     "KXTRUMPGA14",
+    "KXTRUMPIRAN",
     "KXTRUMPKENNEDYFACADE",
     "KXTRUMPKIDSSOTUCOMBO",
     "KXTRUMPLATE",
@@ -5854,6 +5861,7 @@
     "KXTRUMPSNL",
     "KXTRUMPSTATECOUNT",
     "KXTRUMPSTATESMON",
+    "KXTRUMPSTRAIT",
     "KXTRUMPTALKSCOTUS",
     "KXTRUMPTESLA",
     "KXTRUMPTOPIC",
@@ -6888,16 +6896,16 @@
     "ZYNBAN"
   ],
   "metrics": {
-    "chunk_bytes": 137377,
+    "chunk_bytes": 11540,
     "completed": false,
-    "cumulative_chunk_bytes": 4845970,
-    "cumulative_rows_written": 214051,
-    "elapsed_seconds": 1686.206,
-    "events_skipped_by_sampling": 6342,
-    "markets_kept": 5504,
-    "markets_skipped_by_sampling": 1006,
-    "requests_made": 9866,
-    "rows_written": 5375,
+    "cumulative_chunk_bytes": 4857510,
+    "cumulative_rows_written": 214792,
+    "elapsed_seconds": 310.472,
+    "events_skipped_by_sampling": 61,
+    "markets_kept": 741,
+    "markets_skipped_by_sampling": 430,
+    "requests_made": 2449,
+    "rows_written": 741,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -18906,6 +18914,16 @@
       }
     },
     "KXBTC75VS100": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXBTCATH": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -34947,6 +34965,16 @@
         "cursor": ""
       }
     },
+    "KXFEDFREQ": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXFEDGOVMENTION": {
       "historical": {
         "complete": true,
@@ -42547,6 +42575,12 @@
         "cursor": ""
       },
       "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXITTFWOMENMATCH": {
+      "events": {
         "complete": true,
         "cursor": ""
       }
@@ -50531,6 +50565,12 @@
         "cursor": ""
       }
     },
+    "KXMLBFTGAME": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXMLBHR": {
       "events": {
         "complete": true,
@@ -54141,6 +54181,12 @@
       "live": {
         "complete": true,
         "cursor": ""
+      }
+    },
+    "KXNATGASD": {
+      "historical": {
+        "complete": false,
+        "cursor": "CgwI0vLL0wYQqO-F1QISGktYTkFUR0FTRC0yNkFVRzA2MTctVDIuOTAw"
       }
     },
     "KXNATHANSWINNERWO": {
@@ -59854,6 +59900,12 @@
       }
     },
     "KXNFLT100": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXNFLTEAM1POS": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -66354,6 +66406,16 @@
       }
     },
     "KXRFKMENTION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXRFKSHARE": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -76555,6 +76617,16 @@
         "cursor": ""
       }
     },
+    "KXTRUMPIRAN": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXTRUMPKENNEDYFACADE": {
       "historical": {
         "complete": true,
@@ -77026,6 +77098,16 @@
       }
     },
     "KXTRUMPSTATESMON": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXTRUMPSTRAIT": {
       "historical": {
         "complete": true,
         "cursor": ""
