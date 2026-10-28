@@ -1156,6 +1156,7 @@
     "KXBSOUTOURNAMENT",
     "KXBTC100",
     "KXBTC15M",
+    "KXBTC2026200",
     "KXBTC2026250",
     "KXBTC50VS100",
     "KXBTC75VS100",
@@ -2418,6 +2419,7 @@
     "KXEVICT",
     "KXEVLV",
     "KXEVSHARE",
+    "KXEWCAPEXLEGENDS",
     "KXEWCDOTA2",
     "KXEWCFREEFIRE",
     "KXEWCLEAGUEOFLEGENDS",
@@ -2687,6 +2689,7 @@
     "KXFTSEPOS",
     "KXFUJIMORIOUT",
     "KXFULLLIDBEFORE630PM",
+    "KXFULTONCHAIR",
     "KXFUNDINGBILLS",
     "KXFUNDRAISING",
     "KXFUNDY",
@@ -4266,6 +4269,7 @@
     "KXMWJUSTINCASE",
     "KXMWLEAVINSTHELEASTICOULDDO",
     "KXMWMIAMI",
+    "KXMWMISSING",
     "KXMWORLDCUP",
     "KXMWREG",
     "KXMWSCBROWNING",
@@ -4394,6 +4398,7 @@
     "KXNBAPLAYERSPECIALS",
     "KXNBAPLAYOFF3D",
     "KXNBAPLAYOFFWINS",
+    "KXNBAPOLOSE",
     "KXNBAPRA",
     "KXNBAPTS",
     "KXNBAPTSALLGAMES",
@@ -5669,6 +5674,7 @@
     "KXRTAVATARFIREANDASH",
     "KXRTBLITZ",
     "KXRTCAPTAINAMERICA",
+    "KXRTCAUGHTSTEALING",
     "KXRTCHALLENGERS",
     "KXRTCHRISTMASPAGEANT",
     "KXRTCIVILWAR",
@@ -7581,6 +7587,7 @@
     "KXZMMENTION",
     "KXZS",
     "KXZSA",
+    "KXZUCKERBERGNW",
     "KXZUCKMENTION",
     "KXZYNBAN",
     "KXZYWOOMVPBP",
@@ -7920,16 +7927,16 @@
     "ZYNBAN"
   ],
   "metrics": {
-    "chunk_bytes": 23664,
+    "chunk_bytes": 1318,
     "completed": false,
-    "cumulative_chunk_bytes": 5325141,
-    "cumulative_rows_written": 236262,
-    "elapsed_seconds": 239.162,
-    "events_skipped_by_sampling": 591,
-    "markets_kept": 2436,
+    "cumulative_chunk_bytes": 5326459,
+    "cumulative_rows_written": 236302,
+    "elapsed_seconds": 440.897,
+    "events_skipped_by_sampling": 2,
+    "markets_kept": 40,
     "markets_skipped_by_sampling": 0,
-    "requests_made": 1438,
-    "rows_written": 2427,
+    "requests_made": 3563,
+    "rows_written": 40,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -21368,6 +21375,16 @@
       }
     },
     "KXBTC15M": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXBTC2026200": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -38627,6 +38644,12 @@
         "cursor": ""
       }
     },
+    "KXEWCAPEXLEGENDS": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEWCDOTA2": {
       "events": {
         "complete": true,
@@ -41080,6 +41103,16 @@
       }
     },
     "KXFULLLIDBEFORE630PM": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXFULTONCHAIR": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -61289,6 +61322,16 @@
         "cursor": ""
       }
     },
+    "KXMWMISSING": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXMWORLDCUP": {
       "events": {
         "complete": true,
@@ -62690,6 +62733,12 @@
       }
     },
     "KXNBAPLAYOFFWINS": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXNBAPOLOSE": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -77284,6 +77333,16 @@
       }
     },
     "KXRTCAPTAINAMERICA": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXRTCAUGHTSTEALING": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -101534,6 +101593,16 @@
       }
     },
     "KXZSA": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXZUCKERBERGNW": {
       "historical": {
         "complete": true,
         "cursor": ""
