@@ -18,6 +18,7 @@
     "AAAGASW",
     "ACMAAOTY",
     "ACMADOTY",
+    "ACMAEOTY",
     "ACMANFAOTY",
     "ACMASINGOTY",
     "ACMAVMOTY",
@@ -336,6 +337,7 @@
     "KX1SONGMILEYCYRUS",
     "KX1SONGOLIVIARODRIGO",
     "KX1SONGPINKPANTHERESS",
+    "KX1SONGSOMBER",
     "KX1SONGTYLA",
     "KX1SONGTYLERTHECREATOR",
     "KX1SONGYEAT",
@@ -368,6 +370,7 @@
     "KX7YRRATEH",
     "KXA100MON",
     "KXA100MS",
+    "KXA100WS",
     "KXA10REG",
     "KXAAAGASDAK",
     "KXAAAGASDCO",
@@ -600,6 +603,7 @@
     "KXALBVS",
     "KXALEAGUE1H",
     "KXALEAGUE1HSPREAD",
+    "KXALEAGUEBTTS",
     "KXALEAGUETEAMTOTAL",
     "KXALEXWARREN",
     "KXALIENS",
@@ -832,13 +836,16 @@
     "KXATTYGENPA",
     "KXATTYGENSC",
     "KXATTYGENSD",
+    "KXATTYGENUT",
     "KXATTYGENWV",
     "KXAUCTIONLIGHTSABER",
     "KXAUCTIONPRICETRY",
     "KXAUDUSDAW",
     "KXAUDUSDQ",
     "KXAUDUSDW",
+    "KXAUGRECESSCAB",
     "KXAUKUS",
+    "KXAUMFVENEZUELA",
     "KXAUSSEATALBANESE",
     "KXAUSSEATDUTTON",
     "KXAUSSEATSGREENS",
@@ -1293,6 +1300,7 @@
     "KXCANPLBTTS",
     "KXCANRECESSION",
     "KXCANRESIGNCOUNT",
+    "KXCANRESIGNPARTY",
     "KXCANSNAP",
     "KXCANTABRIA",
     "KXCANTARIFFSEFFECT",
@@ -2488,6 +2496,7 @@
     "KXFACUP1HSPREAD",
     "KXFACUP2HBTTS",
     "KXFACUPADVANCE",
+    "KXFACUPGAME",
     "KXFACUPMOF",
     "KXFACUPSCORE",
     "KXFACUPSPREAD",
@@ -2499,6 +2508,7 @@
     "KXFANDUEL",
     "KXFANDUELAPP",
     "KXFANSHAWE",
+    "KXFANTANODEEP",
     "KXFANTANOHUT",
     "KXFANTANOREVIEW",
     "KXFAROEPM",
@@ -2768,6 +2778,7 @@
     "KXGEMINI35Y",
     "KXGEMINIAPP",
     "KXGENERALCOUNTY",
+    "KXGENERICBALLOTVOTEHUB",
     "KXGENERICTARIFF",
     "KXGENESISINVITATIONAL",
     "KXGENIUS",
@@ -3161,6 +3172,7 @@
     "KXHOUSEDEMLEADRUN",
     "KXHOUSEEPSTEIN",
     "KXHOUSEETHICS",
+    "KXHOUSEEXPEL",
     "KXHOUSEGOPLEADRUN",
     "KXHOUSEGOVTFUND",
     "KXHOUSEMINORITY",
@@ -3973,6 +3985,7 @@
     "KXMCSTELLARBLADE",
     "KXMCSYSTEMSHOCKTWO",
     "KXMCTHEALTERS",
+    "KXMCTONYHAWKPROSKATERTHREEFOUR",
     "KXMCZELDAEOW",
     "KXMD06D",
     "KXMDQUESTION3",
@@ -4404,6 +4417,7 @@
     "KXNBAFIRSTBASKET",
     "KXNBAFIRSTOPPONENT",
     "KXNBAFRANCHISECOST",
+    "KXNBAGAME7",
     "KXNBAGAMESPECIALS",
     "KXNBAH2HPRA",
     "KXNBAHALLOFFAME",
@@ -4427,6 +4441,7 @@
     "KXNBAPRA",
     "KXNBAPTS",
     "KXNBAPTSALLGAMES",
+    "KXNBAPTSLEADER",
     "KXNBARA",
     "KXNBAREB",
     "KXNBAREBPROT",
@@ -4455,6 +4470,7 @@
     "KXNBASUMMER",
     "KXNBASUMMER1HSPREAD",
     "KXNBASUMMERPTS",
+    "KXNBASUMMERTOTAL",
     "KXNBASWEEP",
     "KXNBATEAM",
     "KXNBATEAMMATE",
@@ -4629,6 +4645,7 @@
     "KXNCAAWB2QSPREAD",
     "KXNCAAWB4QSPREAD",
     "KXNCAAWB4QTOTAL",
+    "KXNCAAWBBIGEAST",
     "KXNCAAWBFIRST3PT",
     "KXNCAAWBNIT",
     "KXNCAAWBOT",
@@ -4680,6 +4697,7 @@
     "KXNETWORTHKAICENAT",
     "KXNEURALINK",
     "KXNEURALINKCOUNT",
+    "KXNEWAAPLVR",
     "KXNEWALBUM",
     "KXNEWALBUMBIEBER",
     "KXNEWALBUMKANYE",
@@ -5293,6 +5311,7 @@
     "KXPENNWIN",
     "KXPENNY",
     "KXPENSACOLAMAYOR",
+    "KXPEPFAR",
     "KXPEPTIDEAPPROVE",
     "KXPERFORMANCEORDERDR",
     "KXPERFORMBONDSONG",
@@ -5440,6 +5459,7 @@
     "KXPRCBTC",
     "KXPREEMPT",
     "KXPREK",
+    "KXPREMCHAMP",
     "KXPREMDARTS",
     "KXPREMIERLEAGUE",
     "KXPREMMATCH",
@@ -5496,6 +5516,7 @@
     "KXPTC",
     "KXPUBGGC",
     "KXPUBLICBIDEN",
+    "KXPUBLICINT",
     "KXPUBLICSWIFTLIVELY",
     "KXPUBLICTALARICO",
     "KXPUBLICTPZ",
@@ -5959,6 +5980,7 @@
     "KXSENATEMID",
     "KXSENATEMIR",
     "KXSENATEMND",
+    "KXSENATEMSD",
     "KXSENATEMTR",
     "KXSENATENCD",
     "KXSENATENCR",
@@ -6530,6 +6552,7 @@
     "KXTITLEDTUESTOP",
     "KXTLN",
     "KXTLOASG",
+    "KXTLOP",
     "KXTN07SPECIAL",
     "KXTN7D",
     "KXTN7R",
@@ -6693,6 +6716,7 @@
     "KXTPUSAHEADLINER",
     "KXTRADEDEALPRC",
     "KXTRADEDEFFICIT",
+    "KXTRADEOFFNBA",
     "KXTRANSFERCOUNTRM",
     "KXTRANSGENDERSPORTSBAN",
     "KXTRANSSPORTS",
@@ -7175,6 +7199,7 @@
     "KXVENEZOILCOS",
     "KXVENFUTVE",
     "KXVENFUTVEADVANCE",
+    "KXVENFUTVEBTTS",
     "KXVENFUTVEGAME",
     "KXVENFUTVESPREAD",
     "KXVENICEFILMFESTIVAL",
@@ -7761,6 +7786,7 @@
     "PRESPARTYME1",
     "PRESPARTYME2",
     "PRESPARTYMI",
+    "PRESPARTYMN",
     "PRESPARTYMS",
     "PRESPARTYND",
     "PRESPARTYNE",
@@ -7974,16 +8000,16 @@
     "ZYNBAN"
   ],
   "metrics": {
-    "chunk_bytes": 23517,
+    "chunk_bytes": 8978,
     "completed": false,
-    "cumulative_chunk_bytes": 5349976,
-    "cumulative_rows_written": 237391,
-    "elapsed_seconds": 572.027,
-    "events_skipped_by_sampling": 616,
-    "markets_kept": 1103,
-    "markets_skipped_by_sampling": 280,
-    "requests_made": 3472,
-    "rows_written": 1089,
+    "cumulative_chunk_bytes": 5358954,
+    "cumulative_rows_written": 237639,
+    "elapsed_seconds": 280.093,
+    "events_skipped_by_sampling": 538,
+    "markets_kept": 259,
+    "markets_skipped_by_sampling": 0,
+    "requests_made": 1797,
+    "rows_written": 248,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -8138,6 +8164,16 @@
       }
     },
     "ACMADOTY": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "ACMAEOTY": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -11331,6 +11367,16 @@
         "cursor": ""
       }
     },
+    "KX1SONGSOMBER": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KX1SONGTYLA": {
       "historical": {
         "complete": true,
@@ -11670,6 +11716,16 @@
       }
     },
     "KXA100MS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXA100WS": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -13902,6 +13958,12 @@
       }
     },
     "KXALEAGUE1HSPREAD": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXALEAGUEBTTS": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -17727,6 +17789,16 @@
         "cursor": ""
       }
     },
+    "KXATTYGENUT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXATTYGENWV": {
       "historical": {
         "complete": true,
@@ -17787,7 +17859,27 @@
         "cursor": ""
       }
     },
+    "KXAUGRECESSCAB": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXAUKUS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXAUMFVENEZUELA": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -23818,6 +23910,16 @@
       }
     },
     "KXCANRESIGNCOUNT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXCANRESIGNPARTY": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -39301,6 +39403,12 @@
         }
       }
     },
+    "KXFACUPGAME": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXFACUPMOF": {
       "events": {
         "complete": true,
@@ -39378,6 +39486,16 @@
       }
     },
     "KXFANSHAWE": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXFANTANODEEP": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -41920,6 +42038,16 @@
       }
     },
     "KXGENERALCOUNTY": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXGENERICBALLOTVOTEHUB": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -45776,6 +45904,16 @@
       }
     },
     "KXHOUSEETHICS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXHOUSEEXPEL": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -55515,6 +55653,16 @@
         "cursor": ""
       }
     },
+    "KXMCTONYHAWKPROSKATERTHREEFOUR": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXMCZELDAEOW": {
       "historical": {
         "complete": true,
@@ -62893,6 +63041,12 @@
         "cursor": ""
       }
     },
+    "KXNBAGAME7": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXNBAGAMESPECIALS": {
       "events": {
         "complete": true,
@@ -63105,6 +63259,34 @@
       "events": {
         "complete": true,
         "cursor": ""
+      }
+    },
+    "KXNBAPTSLEADER": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      },
+      "selected_events": {
+        "KXNBAPTSLEADER-26OCT24BKNCLE": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXNBAPTSLEADER-26OCT26DALMIA": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
       }
     },
     "KXNBARA": {
@@ -63713,6 +63895,44 @@
       "events": {
         "complete": true,
         "cursor": ""
+      }
+    },
+    "KXNBASUMMERTOTAL": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      },
+      "selected_events": {
+        "KXNBASUMMERTOTAL-26JUL12SACWAS": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXNBASUMMERTOTAL-26JUL13PHXMIL": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXNBASUMMERTOTAL-26JUL16GSWNYK": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
       }
     },
     "KXNBASWEEP": {
@@ -66719,6 +66939,12 @@
         "cursor": ""
       }
     },
+    "KXNCAAWBBIGEAST": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXNCAAWBFIRST3PT": {
       "events": {
         "complete": true,
@@ -67176,6 +67402,16 @@
       }
     },
     "KXNEURALINKCOUNT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXNEWAAPLVR": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -73709,6 +73945,16 @@
         "cursor": ""
       }
     },
+    "KXPEPFAR": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXPEPTIDEAPPROVE": {
       "historical": {
         "complete": true,
@@ -75061,6 +75307,12 @@
         "cursor": ""
       }
     },
+    "KXPREMCHAMP": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXPREMDARTS": {
       "events": {
         "complete": true,
@@ -75572,6 +75824,16 @@
       }
     },
     "KXPUBLICBIDEN": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXPUBLICINT": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -80328,6 +80590,16 @@
       }
     },
     "KXSENATEMND": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXSENATEMSD": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -87009,6 +87281,16 @@
         "cursor": ""
       }
     },
+    "KXTLOP": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXTN07SPECIAL": {
       "historical": {
         "complete": true,
@@ -88615,6 +88897,12 @@
         "cursor": ""
       },
       "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXTRADEOFFNBA": {
+      "events": {
         "complete": true,
         "cursor": ""
       }
@@ -95329,6 +95617,24 @@
       "events": {
         "complete": true,
         "cursor": ""
+      }
+    },
+    "KXVENFUTVEBTTS": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      },
+      "selected_events": {
+        "KXVENFUTVEBTTS-26JUL31PORCFC": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
       }
     },
     "KXVENFUTVEGAME": {
@@ -103390,6 +103696,16 @@
       }
     },
     "PRESPARTYMI": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "PRESPARTYMN": {
       "historical": {
         "complete": true,
         "cursor": ""
