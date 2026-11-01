@@ -18,6 +18,7 @@
     "AAAGASMINTX",
     "AAAGASW",
     "AAAGASY",
+    "AAPLCEOCHANGE",
     "ACMAAOTY",
     "ACMAASWOTY",
     "ACMADOTY",
@@ -496,6 +497,7 @@
     "KXACMAGOTY",
     "KXACMAMAOTY",
     "KXACMAMEOTY",
+    "KXACMANDGOTY",
     "KXACMANFAOTY",
     "KXACMANMAOTY",
     "KXACMASINGOTY",
@@ -1490,6 +1492,7 @@
     "KXCARRIEDINTEREST",
     "KXCART",
     "KXCARTIER",
+    "KXCARVMAK",
     "KXCASE",
     "KXCASE7D",
     "KXCASE7DCA",
@@ -5823,6 +5826,7 @@
     "KXOSSOFFOUTPERFORMRCP",
     "KXOSSOFFRUN",
     "KXOSSPEND",
+    "KXOSTP",
     "KXOSWORLD",
     "KXOTEWALZ",
     "KXOTING",
@@ -6212,6 +6216,7 @@
     "KXRANKLISTFFTE",
     "KXRANKLISTGAMESPOT",
     "KXRANKLISTGOOGLEPASSING",
+    "KXRANKLISTGOOGLESEARCH2",
     "KXRANKLISTGOOGLESEARCHSONG",
     "KXRANKLISTIBD",
     "KXRANKLISTIGN",
@@ -6240,6 +6245,7 @@
     "KXRATEPAYERHOUSE",
     "KXRATEPAYERLAW",
     "KXRBADECISION",
+    "KXRBLX",
     "KXRDDT",
     "KXRDDTMENTION",
     "KXRDUVISITS",
@@ -6698,6 +6704,7 @@
     "KXSERBIAPRES",
     "KXSERBIASNSMOV",
     "KXSERIEA1HBTTS",
+    "KXSERIEA1HSCORE",
     "KXSERIEA2H",
     "KXSERIEA2HBTTS",
     "KXSERIEA2HSPREAD",
@@ -6723,6 +6730,7 @@
     "KXSERIECBTTS",
     "KXSERIECCUPGAME",
     "KXSERIECSCUPSPREAD",
+    "KXSERIECSCUPTOTAL",
     "KXSERIECSPREAD",
     "KXSESBLGAME",
     "KXSETLIST",
@@ -7567,6 +7575,7 @@
     "KXTRUMPSG",
     "KXTRUMPSLAUGHTERVOTE",
     "KXTRUMPSNL",
+    "KXTRUMPSPACE",
     "KXTRUMPSTATECOUNT",
     "KXTRUMPSTATESMON",
     "KXTRUMPSTRAIT",
@@ -7914,6 +7923,7 @@
     "KXUSOPENCUP1HTOTAL",
     "KXUSOPENCUPADVANCE",
     "KXUSOPENCUPBTTS",
+    "KXUSOPENCUPFTTS",
     "KXUSOPENCUPMOF",
     "KXUSOPENCUPMOV",
     "KXUSOPENCUPSCORE",
@@ -8878,16 +8888,16 @@
     "ZYNBAN"
   ],
   "metrics": {
-    "chunk_bytes": 65362,
+    "chunk_bytes": 3551,
     "completed": false,
-    "cumulative_chunk_bytes": 5764473,
-    "cumulative_rows_written": 252486,
-    "elapsed_seconds": 1054.84,
-    "events_skipped_by_sampling": 3104,
-    "markets_kept": 2662,
-    "markets_skipped_by_sampling": 2502,
-    "requests_made": 7533,
-    "rows_written": 2558,
+    "cumulative_chunk_bytes": 5768024,
+    "cumulative_rows_written": 252589,
+    "elapsed_seconds": 154.224,
+    "events_skipped_by_sampling": 89,
+    "markets_kept": 103,
+    "markets_skipped_by_sampling": 1,
+    "requests_made": 902,
+    "rows_written": 103,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -9042,6 +9052,16 @@
       }
     },
     "AAAGASY": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "AAPLCEOCHANGE": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -13846,6 +13866,16 @@
       }
     },
     "KXACMAMEOTY": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXACMANDGOTY": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -26816,6 +26846,16 @@
       }
     },
     "KXCARTIER": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXCARVMAK": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -80713,6 +80753,16 @@
         "cursor": ""
       }
     },
+    "KXOSTP": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXOSWORLD": {
       "historical": {
         "complete": true,
@@ -84661,6 +84711,16 @@
         "cursor": ""
       }
     },
+    "KXRANKLISTGOOGLESEARCH2": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXRANKLISTGOOGLESEARCHSONG": {
       "historical": {
         "complete": true,
@@ -84920,6 +84980,16 @@
       }
     },
     "KXRBADECISION": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXRBLX": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -89625,6 +89695,24 @@
         "cursor": ""
       }
     },
+    "KXSERIEA1HSCORE": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      },
+      "selected_events": {
+        "KXSERIEA1HSCORE-26OCT24COMSAS": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
+      }
+    },
     "KXSERIEA2H": {
       "events": {
         "complete": true,
@@ -90040,6 +90128,12 @@
       }
     },
     "KXSERIECSCUPSPREAD": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXSERIECSCUPTOTAL": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -99387,6 +99481,16 @@
         "cursor": ""
       }
     },
+    "KXTRUMPSPACE": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXTRUMPSTATECOUNT": {
       "historical": {
         "complete": true,
@@ -104590,6 +104694,12 @@
       }
     },
     "KXUSOPENCUPBTTS": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXUSOPENCUPFTTS": {
       "events": {
         "complete": true,
         "cursor": ""
