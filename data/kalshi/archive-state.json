@@ -391,6 +391,7 @@
     "KX1SONGKALIUCHIS",
     "KX1SONGKANYE",
     "KX1SONGKANYEWEST",
+    "KX1SONGKESHA",
     "KX1SONGLILWAYNE",
     "KX1SONGLORDE",
     "KX1SONGMEGANTHEESTALLION",
@@ -592,6 +593,7 @@
     "KXADMINWHD",
     "KXADVOCATEBECERRA",
     "KXAFC",
+    "KXAFCA",
     "KXAFCAC1H",
     "KXAFCAC1HBTTS",
     "KXAFCACADVANCE",
@@ -1255,6 +1257,7 @@
     "KXBILLBOARDPEAKGOL",
     "KXBILLBOARDPEAKHOUDINI",
     "KXBILLBOARDPEAKNEVERLETGO",
+    "KXBILLBOARDPEAKNLG",
     "KXBILLBOARDPEAKTASTE",
     "KXBILLBOARDPEAKTGIF",
     "KXBILLBOARDPEAKUS",
@@ -2279,6 +2282,7 @@
     "KXDJTCONGESTION",
     "KXDJTCPAC",
     "KXDJTDAS",
+    "KXDJTENDORSENETANYAHU",
     "KXDJTFLAK",
     "KXDJTFLOH",
     "KXDJTFRENCHREP",
@@ -2777,6 +2781,7 @@
     "KXENGCSGOAL",
     "KXENGCSSCORE",
     "KXENGCSTCORNERS",
+    "KXENGCSTEAMTOTAL",
     "KXENGLANDLOCAL",
     "KXENGNLBTTS",
     "KXENGNLSPREAD",
@@ -5564,6 +5569,7 @@
     "KXNCAAMBASUN",
     "KXNCAAMBBIG12REGTOP",
     "KXNCAAMBBIGEAST",
+    "KXNCAAMBBIGTENQUAL",
     "KXNCAAMBBIGTENREG",
     "KXNCAAMBBOTHQUAL",
     "KXNCAAMBBSKY",
@@ -5817,6 +5823,7 @@
     "KXNEXTWIN",
     "KXNEXTYACCARINO",
     "KXNFCAFCSB",
+    "KXNFCI",
     "KXNFL1H",
     "KXNFL1HFT",
     "KXNFL1HSPREAD",
@@ -5934,6 +5941,7 @@
     "KXNFLHKANE",
     "KXNFLINT",
     "KXNFLLADDERREC",
+    "KXNFLLADDERRECYDS",
     "KXNFLLARGESTLEAD",
     "KXNFLLASTPICKPOS",
     "KXNFLLASTTOLOSE",
@@ -6259,6 +6267,7 @@
     "KXNYGOVDP",
     "KXNYKCOACH",
     "KXNYNJPORTTEU",
+    "KXNYPRIMARY",
     "KXNYPRIMARYCOMBO",
     "KXNYSECIRCUIT",
     "KXNYSECONDHOMETAX",
@@ -6505,6 +6514,7 @@
     "KXPERUCONGRESS",
     "KXPERUPRES",
     "KXPERUPRES1R",
+    "KXPERUPRES2ND",
     "KXPERUPRESMATCHUP",
     "KXPERUPRESMOV",
     "KXPESO",
@@ -6532,6 +6542,7 @@
     "KXPGAR1TOP10",
     "KXPGAR1TOP20",
     "KXPGAR1TOP5",
+    "KXPGAR2LEAD",
     "KXPGAR2TOP5",
     "KXPGAR3TOP10",
     "KXPGAROUNDBIRDIES",
@@ -6620,6 +6631,7 @@
     "KXPOPESWIFT",
     "KXPOPEVANCE",
     "KXPOPEVISITNEXT",
+    "KXPORIRUABY",
     "KXPORTERDROPOUT",
     "KXPORTERMENTION",
     "KXPORTMOODY",
@@ -6767,6 +6779,7 @@
     "KXRAINATLM",
     "KXRAINAUSM",
     "KXRAINCLLM",
+    "KXRAINCMHM",
     "KXRAIND",
     "KXRAINDALM",
     "KXRAINDC",
@@ -6794,6 +6807,7 @@
     "KXRAINNY",
     "KXRAINNYCW",
     "KXRAINONT",
+    "KXRAINORL",
     "KXRAINPHILM",
     "KXRAINSNYC",
     "KXRAINSTPM",
@@ -7201,6 +7215,7 @@
     "KXSCARBNORTHBY",
     "KXSCARPENTER",
     "KXSCARPENTERALBUMSALES",
+    "KXSCASE-MARCH2020",
     "KXSCFI",
     "KXSCHEDULEFSUIT",
     "KXSCHENGEN",
@@ -7742,6 +7757,7 @@
     "KXSTATESCOTUS",
     "KXSTATESHIFTRIGHT",
     "KXSTATEWITHHOLD",
+    "KXSTEALTHSHARE",
     "KXSTEAMBOATOPEN",
     "KXSTEAMBS",
     "KXSTEAMOVS",
@@ -8416,6 +8432,7 @@
     "KXTWITCHSUBSYOURRAGEGAMING",
     "KXTWITTERAPP",
     "KXTWOW",
+    "KXTX18SPECIAL",
     "KXTX23R",
     "KXTX23SPECIALDATE",
     "KXTX28D",
@@ -8495,6 +8512,7 @@
     "KXUECLFTTS",
     "KXUECLGAME",
     "KXUECLSCORE",
+    "KXUECLTOTAL",
     "KXUEFACL",
     "KXUEFAEURO",
     "KXUEFAEUROQUAL",
@@ -8516,6 +8534,7 @@
     "KXUEFASC1HSCORE",
     "KXUEFASC1HSPREAD",
     "KXUEFASC1HTOTAL",
+    "KXUEFASC2H",
     "KXUEFASC2HBTTS",
     "KXUEFASC2HSPREAD",
     "KXUEFASC2HTOTAL",
@@ -8892,6 +8911,7 @@
     "KXVOTEMILLSEXPEL",
     "KXVOTEMIRAN",
     "KXVOTEMULLIN",
+    "KXVOTEOMAREXPEL",
     "KXVOTEPATEL",
     "KXVOTEPERCENTANO",
     "KXVOTEPERCENTCOOPERNC",
@@ -9259,6 +9279,7 @@
     "KXWTAIT",
     "KXWTAIWO",
     "KXWTAMAD",
+    "KXWTANATSTAGE",
     "KXWTASERENA",
     "KXWTASETWINNER",
     "KXWTATOURNWIN",
@@ -9381,6 +9402,7 @@
     "MCZELDAEOW",
     "MEAD",
     "MEASLES",
+    "MESSIAH",
     "METACRITIC",
     "METACRITICBLOODLINES2",
     "METACRITICOUTLAWS",
@@ -9403,6 +9425,7 @@
     "NASDAQ100Z",
     "NDKXATTYGENOH",
     "NEPA",
+    "NETCHOICE",
     "NETFLIXRANK",
     "NETFLIXRANKMOVIE",
     "NETFLIXSUBS",
@@ -9645,6 +9668,7 @@
     "SENATEPARTYCA",
     "SENATEPARTYCT",
     "SENATEPARTYIN",
+    "SENATEPARTYMA",
     "SENATEPARTYME",
     "SENATEPARTYMN",
     "SENATEPARTYMS",
@@ -9772,17 +9796,17 @@
     "ZYNBAN"
   ],
   "metrics": {
-    "chunk_bytes": 10081,
+    "chunk_bytes": 54670,
     "completed": false,
-    "cumulative_chunk_bytes": 6265527,
-    "cumulative_rows_written": 287655,
-    "elapsed_seconds": 237.214,
-    "events_skipped_by_sampling": 800,
-    "markets_kept": 362,
-    "markets_skipped_by_sampling": 1309,
-    "requests_made": 1554,
-    "rows_written": 336,
-    "stopped_early": "Kalshi HTTP 429 after retries"
+    "cumulative_chunk_bytes": 6320197,
+    "cumulative_rows_written": 299702,
+    "elapsed_seconds": 2698.234,
+    "events_skipped_by_sampling": 5779,
+    "markets_kept": 12811,
+    "markets_skipped_by_sampling": 0,
+    "requests_made": 15869,
+    "rows_written": 12047,
+    "stopped_early": null
   },
   "series": {
     "10Y2Y": {
@@ -13679,6 +13703,16 @@
         "cursor": ""
       }
     },
+    "KX1SONGKESHA": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KX1SONGLILWAYNE": {
       "historical": {
         "complete": true,
@@ -15680,6 +15714,12 @@
       }
     },
     "KXAFC": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXAFCA": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -23731,6 +23771,16 @@
         "cursor": ""
       }
     },
+    "KXBILLBOARDPEAKNLG": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXBILLBOARDPEAKTASTE": {
       "historical": {
         "complete": true,
@@ -25983,6 +26033,694 @@
       "events": {
         "complete": true,
         "cursor": ""
+      }
+    },
+    "KXBTC": {
+      "events": {
+        "complete": false,
+        "cursor": "CgYIzLv7zQYSD0tYQlRDLTI2TUFSMjExNA"
+      },
+      "selected_events": {
+        "KXBTC-26APR0101": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26APR0206": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26APR0207": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26APR0303": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26APR0307": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26APR0402": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26APR0820": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26APR0912": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26APR1307": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26APR2206": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26APR2618": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26AUG0816": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26AUG0821": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26AUG1416": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26AUG1508": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26AUG2012": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26AUG2015": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26AUG2102": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26AUG2617": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26AUG2904": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUL0400": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUL0917": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUL2505": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUL2817": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUL2915": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUL3011": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUN0313": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUN0721": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUN1411": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUN1917": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUN2403": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUN2423": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUN2611": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26JUN2618": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAR2517": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAR2702": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAR2813": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAY0121": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAY0316": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAY0414": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAY0515": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAY1021": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAY1420": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAY1814": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAY1905": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAY2214": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26MAY2504": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26NOV0412": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26NOV0621": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26OCT0513": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26OCT0707": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26OCT1421": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26OCT2117": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26OCT2703": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26OCT3100": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP0207": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP0313": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP0403": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP1013": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP1106": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP1620": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP1806": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP1811": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP2202": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP2408": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP2416": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP2708": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXBTC-26SEP2911": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
       }
     },
     "KXBTC100": {
@@ -37349,6 +38087,16 @@
         "cursor": ""
       }
     },
+    "KXDJTENDORSENETANYAHU": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXDJTFLAK": {
       "historical": {
         "complete": true,
@@ -44300,6 +45048,12 @@
       }
     },
     "KXENGCSTCORNERS": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXENGCSTEAMTOTAL": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -81173,6 +81927,12 @@
         "cursor": ""
       }
     },
+    "KXNCAAMBBIGTENQUAL": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXNCAAMBBIGTENREG": {
       "events": {
         "complete": true,
@@ -84103,6 +84863,16 @@
         }
       }
     },
+    "KXNFCI": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXNFL1H": {
       "events": {
         "complete": true,
@@ -85175,6 +85945,24 @@
       "events": {
         "complete": true,
         "cursor": ""
+      }
+    },
+    "KXNFLLADDERRECYDS": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      },
+      "selected_events": {
+        "KXNFLLADDERRECYDS-26OCT11DETARI": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
       }
     },
     "KXNFLLARGESTLEAD": {
@@ -89019,6 +89807,16 @@
         "cursor": ""
       }
     },
+    "KXNYPRIMARY": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXNYPRIMARYCOMBO": {
       "historical": {
         "complete": true,
@@ -91671,6 +92469,16 @@
         "cursor": ""
       }
     },
+    "KXPERUPRES2ND": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXPERUPRESMATCHUP": {
       "historical": {
         "complete": true,
@@ -91860,6 +92668,12 @@
       }
     },
     "KXPGAR1TOP5": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXPGAR2LEAD": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -92658,6 +93472,16 @@
       }
     },
     "KXPOPEVISITNEXT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXPORIRUABY": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -94125,6 +94949,16 @@
         "cursor": ""
       }
     },
+    "KXRAINCMHM": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXRAIND": {
       "historical": {
         "complete": true,
@@ -94386,6 +95220,16 @@
       }
     },
     "KXRAINONT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXRAINORL": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -98508,6 +99352,16 @@
       }
     },
     "KXSCARPENTERALBUMSALES": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXSCASE-MARCH2020": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -104350,6 +105204,16 @@
       }
     },
     "KXSTATEWITHHOLD": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXSTEALTHSHARE": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -113109,6 +113973,16 @@
         "cursor": ""
       }
     },
+    "KXTX18SPECIAL": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXTX23R": {
       "historical": {
         "complete": true,
@@ -114109,6 +114983,34 @@
         }
       }
     },
+    "KXUECLTOTAL": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      },
+      "selected_events": {
+        "KXUECLTOTAL-26JUL09HEGPAI": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXUECLTOTAL-26NOV05TRASCF": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
+      }
+    },
     "KXUEFACL": {
       "events": {
         "complete": true,
@@ -114270,6 +115172,12 @@
       }
     },
     "KXUEFASC1HTOTAL": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXUEFASC2H": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -118983,6 +119891,16 @@
         "cursor": ""
       }
     },
+    "KXVOTEOMAREXPEL": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXVOTEPATEL": {
       "historical": {
         "complete": true,
@@ -122947,6 +123865,12 @@
         "cursor": ""
       }
     },
+    "KXWTANATSTAGE": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXWTASERENA": {
       "events": {
         "complete": true,
@@ -126163,6 +127087,16 @@
         "cursor": ""
       }
     },
+    "MESSIAH": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "METACRITIC": {
       "historical": {
         "complete": true,
@@ -126370,6 +127304,16 @@
       }
     },
     "NEPA": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "NETCHOICE": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -128790,6 +129734,16 @@
       }
     },
     "SENATEPARTYIN": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "SENATEPARTYMA": {
       "historical": {
         "complete": true,
         "cursor": ""
