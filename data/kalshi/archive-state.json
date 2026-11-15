@@ -565,6 +565,7 @@
     "KXA100W",
     "KXA100WS",
     "KXA10REG",
+    "KXAAAEVM",
     "KXAAAGASCDAL",
     "KXAAAGASCDAZ",
     "KXAAAGASCDCA",
@@ -1162,6 +1163,7 @@
     "KXARTISTSTREAMSUPDOWN",
     "KXARTISTSTREAMSY",
     "KXARTISTVS",
+    "KXARTSALES",
     "KXARTSALESYOY",
     "KXASEANADVANCE",
     "KXASEANBTTS",
@@ -1614,6 +1616,7 @@
     "KXBKFT",
     "KXBKLYNDEMCHAIR",
     "KXBKNUGGETS",
+    "KXBLACKBURNSEAT",
     "KXBLANCHECOUNT",
     "KXBLANCHEDISBAR",
     "KXBLANCHEJUDICIARY",
@@ -2011,6 +2014,7 @@
     "KXCANTABRIA",
     "KXCANTARIFFSEFFECT",
     "KXCANTARIFFSIZE",
+    "KXCANTERRITORY",
     "KXCANUSRAISE",
     "KXCAPARAMOUNTSETTLE",
     "KXCAPCONTROL",
@@ -2085,6 +2089,7 @@
     "KXCBDNORWAY",
     "KXCBDPHILIPPINES",
     "KXCBDPOLAND",
+    "KXCBDSWEDEN",
     "KXCBDSWISS",
     "KXCBDTAIWAN",
     "KXCBDTHAILAND",
@@ -2123,6 +2128,7 @@
     "KXCEODAL",
     "KXCEODELL",
     "KXCEOGS",
+    "KXCEOLVMH",
     "KXCEOMETA",
     "KXCEONEXT",
     "KXCEONVDA",
@@ -4110,6 +4116,7 @@
     "KXGABBARDOUT",
     "KXGABBARDRETURN",
     "KXGABBMENTION",
+    "KXGABOTTOMSOSSOFF",
     "KXGADATACENTERS",
     "KXGADOVMATCHUP",
     "KXGAETZ",
@@ -4839,6 +4846,7 @@
     "KXHURPATHAL",
     "KXHURPATHFLA",
     "KXHURPATHGULFCOAST",
+    "KXHURPATHHAWAII",
     "KXHURPATHSCAROLINA",
     "KXHURRICANE",
     "KXHURRICANENAMES",
@@ -4917,12 +4925,14 @@
     "KXINDCOUNT",
     "KXINDEXADD",
     "KXINDIACLIMATE",
+    "KXINDIANAPOWELL",
     "KXINDIANPM",
     "KXINDIAVJAPAN",
     "KXINDIAX",
     "KXINDOORSF",
     "KXINDSLADVANCE",
     "KXINDSLGAME",
+    "KXINDSLSPREAD",
     "KXINDUS",
     "KXINDY500",
     "KXINDY500DELAY",
@@ -5109,6 +5119,7 @@
     "KXITASUPERCUPTOTAL",
     "KXITC",
     "KXITCPIPREL",
+    "KXITFDOUBLES",
     "KXITFWDOUBLES",
     "KXITGDPQOQA",
     "KXITGDPYOYA",
@@ -5279,7 +5290,9 @@
     "KXKHALILDEPORT",
     "KXKHALILSUIT",
     "KXKHANNAMENTION",
+    "KXKHANNARUN",
     "KXKHBLUEWALL",
+    "KXKHCGRADS",
     "KXKHGAWI",
     "KXKHL",
     "KXKHLGAME",
@@ -5496,6 +5509,7 @@
     "KXLEADERNFLRUSHTDS",
     "KXLEADERNFLRUSHYDS",
     "KXLEADERNFLSACKS",
+    "KXLEADEROUT",
     "KXLEADERPINT",
     "KXLEADERSOUT",
     "KXLEADERUCLGOALS",
@@ -6123,6 +6137,7 @@
     "KXMENWORLDCUP",
     "KXMEPINGREEJACKSON",
     "KXMEPRIMARY",
+    "KXMERCHLISTPALANTIR",
     "KXMESENGOVCOMBO",
     "KXMESENOUTCOME",
     "KXMESSIAH",
@@ -6282,6 +6297,7 @@
     "KXMLBMENTION",
     "KXMLBNEXTHR",
     "KXMLBNEXTTEAM",
+    "KXMLBNL",
     "KXMLBNLCENT",
     "KXMLBNLCSMVP",
     "KXMLBNLCSQUAL",
@@ -7068,6 +7084,7 @@
     "KXNCAAMLAXGAME",
     "KXNCAAMPAC12",
     "KXNCAAMWRESTLING125",
+    "KXNCAAMWRESTLING133",
     "KXNCAAMWRESTLING141",
     "KXNCAAMWRESTLING149",
     "KXNCAAMWRESTLING157",
@@ -7085,6 +7102,7 @@
     "KXNCAAWB1HTEAMTOTAL",
     "KXNCAAWB1HTOTAL",
     "KXNCAAWB1Q",
+    "KXNCAAWB1QSPREAD",
     "KXNCAAWB1QTOTAL",
     "KXNCAAWB2H",
     "KXNCAAWB2HSPREAD",
@@ -7162,6 +7180,7 @@
     "KXNETFLIXMOVIERANKD",
     "KXNETFLIXRANKKPOP",
     "KXNETFLIXRANKMOVIERUNNERUP",
+    "KXNETFLIXRANKSHOW",
     "KXNETFLIXRANKSHOWGLOBAL",
     "KXNETFLIXRANKSHOWRUNNERUP",
     "KXNETFLIXSHOWRANKD",
@@ -7406,6 +7425,7 @@
     "KXNFLDRAFTRB",
     "KXNFLDRAFTSELECT",
     "KXNFLDRAFTTE",
+    "KXNFLDRAFTTEAM",
     "KXNFLDRAFTTEAMPOS",
     "KXNFLDRAFTTOP",
     "KXNFLDRAFTWR",
@@ -8829,6 +8849,7 @@
     "KXRSGOV",
     "KXRSIANNOUNCE",
     "KXRT",
+    "KXRT28YEARSLATER",
     "KXRTABIGAIL",
     "KXRTACCOUNTANT2",
     "KXRTACOMPLETEUNKNOWN",
@@ -8981,6 +9002,7 @@
     "KXRUSDIESELGL",
     "KXRUSFERTIDE",
     "KXRUT",
+    "KXRUTA",
     "KXRUTD",
     "KXRUTH",
     "KXRUTL",
@@ -9069,6 +9091,7 @@
     "KXSBGUESTS",
     "KXSBHEADLINE",
     "KXSBLSPREAD",
+    "KXSBMENTION",
     "KXSBOPENINGCEREMONY",
     "KXSBPERFORM",
     "KXSBSETLISTS",
@@ -9553,6 +9576,7 @@
     "KXSPCXMENTION",
     "KXSPDPERCENT",
     "KXSPEAKER",
+    "KXSPEAKER120",
     "KXSPECIALPROSECUTOREPSTEIN",
     "KXSPECIALREPORTMENTION",
     "KXSPEECHAI",
@@ -9663,6 +9687,7 @@
     "KXSPOTIFYSONGSMRELECTRICBLUE",
     "KXSPOTIFYSONGSNICETOKNOWYOU",
     "KXSPOTIFYSONGSNOISES",
+    "KXSPOTIFYSONGSONEHEARTONEVOICE",
     "KXSPOTIFYSONGSONMYMIND",
     "KXSPOTIFYSONGSOPALITE",
     "KXSPOTIFYSONGSOUTSIDE",
@@ -9834,6 +9859,7 @@
     "KXSTRKMINY",
     "KXSTRMRGOTY",
     "KXSTRMRSOTY",
+    "KXSTUB",
     "KXSTUBBMENTION",
     "KXSTUDENTBAN",
     "KXSTUDENTVISAS",
@@ -10116,6 +10142,7 @@
     "KXTHEETGERESIGN",
     "KXTHEFALLOFF",
     "KXTHEGAMBIAPRES",
+    "KXTHELASTOFUSS2",
     "KXTHEMASKEDSINGER",
     "KXTHEOPEN",
     "KXTHEVOICE",
@@ -10140,6 +10167,7 @@
     "KXTIKTOKSELL",
     "KXTIKTOKSTORE",
     "KXTIKTOKUMG",
+    "KXTIMESATHLETE",
     "KXTIMEWOMAN",
     "KXTIMORPRES",
     "KXTIPTAX",
@@ -10725,6 +10753,7 @@
     "KXUCLRO4",
     "KXUCLROUND",
     "KXUCLSAVE",
+    "KXUCLSCORE",
     "KXUCLSHOT",
     "KXUCLSPREAD",
     "KXUCLTCORNERS",
@@ -10791,6 +10820,7 @@
     "KXUEFASCTCORNERS",
     "KXUEFASCTEAMTOTAL",
     "KXUEFASCTOTAL",
+    "KXUEFASUPERCUP",
     "KXUEL",
     "KXUEL16AJAUSG",
     "KXUEL16BOGTWE",
@@ -10946,6 +10976,7 @@
     "KXUSDBRLMAX",
     "KXUSDBRLMAXM",
     "KXUSDCAD15M",
+    "KXUSDCADAH",
     "KXUSDCADAW",
     "KXUSDCADEVENT",
     "KXUSDCADW",
@@ -11245,6 +11276,7 @@
     "KXVOTEDPATEL",
     "KXVOTEDRFK",
     "KXVOTEFEDCHAIR",
+    "KXVOTEFR1",
     "KXVOTEFUNDING",
     "KXVOTEGENERAL",
     "KXVOTEGREER",
@@ -11506,6 +11538,7 @@
     "KXWHCDATTEND",
     "KXWHCOS",
     "KXWHEAT",
+    "KXWHEATD",
     "KXWHEATMON",
     "KXWHEATW",
     "KXWHENWTI",
@@ -11688,6 +11721,7 @@
     "KXWRECSS",
     "KXWRESTLINGMATCH",
     "KXWRIGHTCOUNT",
+    "KXWSAL",
     "KXWSESBLGAME",
     "KXWSM",
     "KXWSNL",
@@ -11789,6 +11823,7 @@
     "KXYTUBESUBSISHOWSPEED",
     "KXYTUBESUBSKAICENAT",
     "KXYTUBESUBSSNAPBACK",
+    "KXYTUBSUBSKAICENAT",
     "KXYTVIEWS",
     "KXYTVIEWSD",
     "KXYTVIEWSHIGH",
@@ -12346,16 +12381,16 @@
     "ZYNBAN"
   ],
   "metrics": {
-    "chunk_bytes": 3500,
+    "chunk_bytes": 36342,
     "completed": false,
-    "cumulative_chunk_bytes": 7809880,
-    "cumulative_rows_written": 375619,
-    "elapsed_seconds": 267.649,
-    "events_skipped_by_sampling": 1203,
-    "markets_kept": 68,
-    "markets_skipped_by_sampling": 11,
-    "requests_made": 2031,
-    "rows_written": 68,
+    "cumulative_chunk_bytes": 7846222,
+    "cumulative_rows_written": 377037,
+    "elapsed_seconds": 589.209,
+    "events_skipped_by_sampling": 3877,
+    "markets_kept": 1447,
+    "markets_skipped_by_sampling": 5,
+    "requests_made": 3902,
+    "rows_written": 1418,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -18009,6 +18044,16 @@
     },
     "KXA10REG": {
       "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXAAAEVM": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
         "complete": true,
         "cursor": ""
       }
@@ -24184,6 +24229,16 @@
       }
     },
     "KXARTISTVS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXARTSALES": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -31235,6 +31290,16 @@
         "cursor": ""
       }
     },
+    "KXBLACKBURNSEAT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXBLANCHECOUNT": {
       "historical": {
         "complete": true,
@@ -37639,6 +37704,16 @@
         "cursor": ""
       }
     },
+    "KXCANTERRITORY": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXCANUSRAISE": {
       "historical": {
         "complete": true,
@@ -38433,6 +38508,16 @@
         "cursor": ""
       }
     },
+    "KXCBDSWEDEN": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXCBDSWISS": {
       "historical": {
         "complete": true,
@@ -38796,6 +38881,16 @@
       }
     },
     "KXCEOGS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXCEOLVMH": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -65753,6 +65848,16 @@
         "cursor": ""
       }
     },
+    "KXGABOTTOMSOSSOFF": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXGADATACENTERS": {
       "historical": {
         "complete": true,
@@ -73189,6 +73294,16 @@
         "cursor": ""
       }
     },
+    "KXHURPATHHAWAII": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXHURPATHSCAROLINA": {
       "historical": {
         "complete": true,
@@ -74413,6 +74528,16 @@
         "cursor": ""
       }
     },
+    "KXINDIANAPOWELL": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXINDIANPM": {
       "historical": {
         "complete": true,
@@ -74463,6 +74588,24 @@
       "events": {
         "complete": true,
         "cursor": ""
+      }
+    },
+    "KXINDSLSPREAD": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      },
+      "selected_events": {
+        "KXINDSLSPREAD-26NOV01MUMSCD": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
       }
     },
     "KXINDUS": {
@@ -76335,6 +76478,424 @@
       "live": {
         "complete": true,
         "cursor": ""
+      }
+    },
+    "KXITFDOUBLES": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      },
+      "selected_events": {
+        "KXITFDOUBLES-26AUG05TABYAMNAEPRA": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26AUG07HONLEEKUASAR": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26AUG11BERLAPGRUMEI": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26AUG11CARVANKALKLO": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26AUG12ALBCUNAGUDEL": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26AUG18BOSWATPIAVUJ": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26AUG25BARCOUMARTRU": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26AUG25CERMASCATMAT": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26AUG26SADWAZCHLSTE": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26AUG27ALAWESANGRAT": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26JUL14ASUURAHOUSAH": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26JUL18MVOKLIAMPNUN": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26JUL22BRAPORGLOHAU": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26JUL22DELJOHMINNAG": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26JUL23CHAJONJOVLEO": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26JUL29BERIEMTHUTHU": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26JUL30NOGTAGBRUSTO": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26NOV04ANGGSCDERSCH": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26NOV05ABDOUANAGRAH": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26NOV05BRAMOUSOUSVE": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26NOV10CIGFARAGUARI": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26NOV10SUKSUKBUNKAM": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26NOV11ALUBENCOOMCK": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26NOV13CARURRDEASAU": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26OCT01ADRANDCHEKHO": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26OCT13BOTGATSKVTRE": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26OCT13CASANDCOVVOE": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26OCT14ELASTITSITSI": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26OCT15BILKAJCORPLA": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26OCT15HOFMUEBARDUN": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26OCT21CIUGRILAGVAS": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26OCT27BOZPELMAGMEL": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26OCT28FRYMCKBEAHIG": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26OCT29HORLAWBOZPEL": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26SEP01PARTADCRIMEC": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26SEP05BLAHOMHALLAG": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26SEP15BESBILANDAUB": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26SEP15LEOMORTHOHOR": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26SEP16AUGEMAJUNPES": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26SEP29DIMHRIGRIVIL": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXITFDOUBLES-26SEP30BOLSMIPALWEI": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
       }
     },
     "KXITFWDOUBLES": {
@@ -78481,7 +79042,27 @@
         "cursor": ""
       }
     },
+    "KXKHANNARUN": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXKHBLUEWALL": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXKHCGRADS": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -80813,6 +81394,16 @@
     },
     "KXLEADERNFLSACKS": {
       "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXLEADEROUT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
         "complete": true,
         "cursor": ""
       }
@@ -88391,6 +88982,16 @@
         "cursor": ""
       }
     },
+    "KXMERCHLISTPALANTIR": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXMESENGOVCOMBO": {
       "historical": {
         "complete": true,
@@ -93364,6 +93965,12 @@
       }
     },
     "KXMLBNEXTTEAM": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXMLBNL": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -105359,6 +105966,12 @@
         "cursor": ""
       }
     },
+    "KXNCAAMWRESTLING133": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXNCAAMWRESTLING141": {
       "events": {
         "complete": true,
@@ -105456,6 +106069,12 @@
       }
     },
     "KXNCAAWB1Q": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXNCAAWB1QSPREAD": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -106626,6 +107245,16 @@
       }
     },
     "KXNETFLIXRANKMOVIERUNNERUP": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXNETFLIXRANKSHOW": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -108962,6 +109591,12 @@
       }
     },
     "KXNFLDRAFTTE": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXNFLDRAFTTEAM": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -124111,6 +124746,16 @@
         "cursor": ""
       }
     },
+    "KXRT28YEARSLATER": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXRTABIGAIL": {
       "historical": {
         "complete": true,
@@ -125649,6 +126294,16 @@
         "cursor": ""
       }
     },
+    "KXRUTA": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXRUTD": {
       "historical": {
         "complete": true,
@@ -126626,6 +127281,12 @@
       }
     },
     "KXSBLSPREAD": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXSBMENTION": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -132963,6 +133624,16 @@
         "cursor": ""
       }
     },
+    "KXSPEAKER120": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXSPECIALPROSECUTOREPSTEIN": {
       "historical": {
         "complete": true,
@@ -134054,6 +134725,16 @@
       }
     },
     "KXSPOTIFYSONGSNOISES": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXSPOTIFYSONGSONEHEARTONEVOICE": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -135710,6 +136391,16 @@
       }
     },
     "KXSTRMRSOTY": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXSTUB": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -139629,6 +140320,16 @@
         "cursor": ""
       }
     },
+    "KXTHELASTOFUSS2": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXTHEMASKEDSINGER": {
       "historical": {
         "complete": true,
@@ -139848,6 +140549,16 @@
       }
     },
     "KXTIKTOKUMG": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXTIMESATHLETE": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -146923,6 +147634,24 @@
         "cursor": ""
       }
     },
+    "KXUCLSCORE": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      },
+      "selected_events": {
+        "KXUCLSCORE-26OCT14MCIPSG": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
+      }
+    },
     "KXUCLSHOT": {
       "events": {
         "complete": true,
@@ -147722,6 +148451,12 @@
       }
     },
     "KXUEFASCTOTAL": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXUEFASUPERCUP": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -149517,6 +150252,12 @@
         "cursor": ""
       },
       "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXUSDCADAH": {
+      "events": {
         "complete": true,
         "cursor": ""
       }
@@ -153311,6 +154052,16 @@
         "cursor": ""
       }
     },
+    "KXVOTEFR1": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXVOTEFUNDING": {
       "historical": {
         "complete": true,
@@ -155899,6 +156650,16 @@
         "cursor": ""
       }
     },
+    "KXWHEATD": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXWHEATMON": {
       "historical": {
         "complete": true,
@@ -158121,6 +158882,12 @@
         "cursor": ""
       },
       "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXWSAL": {
+      "events": {
         "complete": true,
         "cursor": ""
       }
@@ -161334,6 +162101,16 @@
       }
     },
     "KXYTUBESUBSSNAPBACK": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXYTUBSUBSKAICENAT": {
       "historical": {
         "complete": true,
         "cursor": ""
