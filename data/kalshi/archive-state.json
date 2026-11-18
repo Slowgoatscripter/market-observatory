@@ -863,6 +863,7 @@
     "KXAIRDROPMONAD",
     "KXAIRDROPPUMPFUN",
     "KXAIRDROPQ",
+    "KXAIRELEASE",
     "KXAIREVIEW",
     "KXAIRFARECPI",
     "KXAIRLINEZYN",
@@ -2519,6 +2520,7 @@
     "KXCONMEBOLSUD",
     "KXCONMEBOLSUD1H",
     "KXCONMEBOLSUD1HBTTS",
+    "KXCONMEBOLSUD1HSPREAD",
     "KXCONMEBOLSUD1HTOTAL",
     "KXCONMEBOLSUDBTTS",
     "KXCONMEBOLSUDGAME",
@@ -5462,6 +5464,7 @@
     "KXKHL",
     "KXKHLGAME",
     "KXKHMI",
+    "KXKHUNMWOMEN",
     "KXKHWOMEN",
     "KXKIDSAFETY",
     "KXKILAUEA",
@@ -12776,16 +12779,16 @@
     "ZYNBAN"
   ],
   "metrics": {
-    "chunk_bytes": 38492,
+    "chunk_bytes": 771,
     "completed": false,
-    "cumulative_chunk_bytes": 8069852,
-    "cumulative_rows_written": 388979,
-    "elapsed_seconds": 630.556,
-    "events_skipped_by_sampling": 810,
-    "markets_kept": 2072,
-    "markets_skipped_by_sampling": 4406,
-    "requests_made": 4260,
-    "rows_written": 1982,
+    "cumulative_chunk_bytes": 8070623,
+    "cumulative_rows_written": 388985,
+    "elapsed_seconds": 136.452,
+    "events_skipped_by_sampling": 42,
+    "markets_kept": 8,
+    "markets_skipped_by_sampling": 0,
+    "requests_made": 1058,
+    "rows_written": 6,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -21428,6 +21431,16 @@
       }
     },
     "KXAIRDROPQ": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXAIRELEASE": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -43209,6 +43222,34 @@
       "events": {
         "complete": true,
         "cursor": ""
+      }
+    },
+    "KXCONMEBOLSUD1HSPREAD": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      },
+      "selected_events": {
+        "KXCONMEBOLSUD1HSPREAD-26AUG19ATLRBB": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXCONMEBOLSUD1HSPREAD-26SEP16ATLSAN": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
       }
     },
     "KXCONMEBOLSUD1HTOTAL": {
@@ -83006,6 +83047,16 @@
       }
     },
     "KXKHMI": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXKHUNMWOMEN": {
       "historical": {
         "complete": true,
         "cursor": ""
