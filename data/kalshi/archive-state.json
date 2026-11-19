@@ -349,6 +349,7 @@
     "GRAMAOTY",
     "GRAMBNA",
     "GRAMBRS",
+    "GRAMMYCOUNTSWIFT",
     "GRAMMYCOUNTSZA",
     "GRAMMYNOMAOTY",
     "GRAMRAOTY",
@@ -752,6 +753,7 @@
     "KXACQUIRERIVIAN",
     "KXACREGOV",
     "KXACTBLUEFIFTH",
+    "KXACTBLUEFOURTH",
     "KXACTBLUETOP",
     "KXACTORAWARDSATTEND",
     "KXACTORRAMBO",
@@ -799,6 +801,7 @@
     "KXAFCCLMOF",
     "KXAFCCLMOV",
     "KXAFCCLSCORE",
+    "KXAFCCLSPREAD",
     "KXAFCCLTEAMTOTAL",
     "KXAFCON",
     "KXAFCON1H",
@@ -936,6 +939,7 @@
     "KXALBUMTRACKSJCOLE",
     "KXALBUMVS",
     "KXALBVS",
+    "KXALCARAZCOACH",
     "KXALCATRAZ",
     "KXALDICC",
     "KXALEAGUE1H",
@@ -1420,6 +1424,7 @@
     "KXBACHELORETTEMENTION",
     "KXBACHELOROPEN",
     "KXBADWUR",
+    "KXBAFTAACTO",
     "KXBAFTAACTR",
     "KXBAFTAASPLAY",
     "KXBAFTACINE",
@@ -1526,6 +1531,7 @@
     "KXBDSHOLEINONE",
     "KXBEASTGAMES",
     "KXBEASTWATER",
+    "KXBEATLES",
     "KXBEAVERCLOSE",
     "KXBEAVERSNOW",
     "KXBEDFORDMAYOR",
@@ -1754,6 +1760,7 @@
     "KXBOSTONMAYORMOV",
     "KXBOTOLABTTS",
     "KXBOTOLAGAME",
+    "KXBOTOLATOTAL",
     "KXBOUGAINVILLEIND",
     "KXBOUNTY2025S2",
     "KXBOWMANMENTION",
@@ -2292,6 +2299,7 @@
     "KXCHIPBURRITO",
     "KXCHIPYOY",
     "KXCHISNOWM",
+    "KXCHISNOWXMAS",
     "KXCHLLDP",
     "KXCHLLDPADVANCE",
     "KXCHLLDPGAME",
@@ -2485,6 +2493,7 @@
     "KXCOMPANYSTAKERYANAIR",
     "KXCOMPARETEST",
     "KXCOMPBANCHINESEAI",
+    "KXCOMPTROLLERNOMILD",
     "KXCONCACAFCCUP1H",
     "KXCONCACAFCCUP1HBTTS",
     "KXCONCACAFCCUP1HSPREAD",
@@ -2578,6 +2587,7 @@
     "KXCOPADOBRASILSPREAD",
     "KXCOPADOBRASILTEAMTOTAL",
     "KXCOPADOBRASILTOTAL",
+    "KXCOPADOBRASILWADVANCE",
     "KXCOPADOBRASILWBTTS",
     "KXCOPPAITALIA",
     "KXCOPPAITALIA1H",
@@ -3186,12 +3196,15 @@
     "KXEARNINGSMENTIONAAOI",
     "KXEARNINGSMENTIONAAP",
     "KXEARNINGSMENTIONAAPL",
+    "KXEARNINGSMENTIONABBV",
     "KXEARNINGSMENTIONABNB",
+    "KXEARNINGSMENTIONABT",
     "KXEARNINGSMENTIONAC",
     "KXEARNINGSMENTIONACA",
     "KXEARNINGSMENTIONACI",
     "KXEARNINGSMENTIONACN",
     "KXEARNINGSMENTIONADBE",
+    "KXEARNINGSMENTIONADI",
     "KXEARNINGSMENTIONADOBE",
     "KXEARNINGSMENTIONALIBABA",
     "KXEARNINGSMENTIONALK",
@@ -3201,9 +3214,13 @@
     "KXEARNINGSMENTIONAMD",
     "KXEARNINGSMENTIONAMGN",
     "KXEARNINGSMENTIONAMZN",
+    "KXEARNINGSMENTIONANET",
     "KXEARNINGSMENTIONANF",
+    "KXEARNINGSMENTIONAPH",
     "KXEARNINGSMENTIONARITZIA",
+    "KXEARNINGSMENTIONARM",
     "KXEARNINGSMENTIONAS",
+    "KXEARNINGSMENTIONASML",
     "KXEARNINGSMENTIONASTS",
     "KXEARNINGSMENTIONATZ",
     "KXEARNINGSMENTIONAVAV",
@@ -3214,11 +3231,13 @@
     "KXEARNINGSMENTIONBAC",
     "KXEARNINGSMENTIONBB",
     "KXEARNINGSMENTIONBJ",
+    "KXEARNINGSMENTIONBKNG",
     "KXEARNINGSMENTIONBLK",
     "KXEARNINGSMENTIONBULL",
     "KXEARNINGSMENTIONC",
     "KXEARNINGSMENTIONCALM",
     "KXEARNINGSMENTIONCAR",
+    "KXEARNINGSMENTIONCAT",
     "KXEARNINGSMENTIONCAVA",
     "KXEARNINGSMENTIONCBRL",
     "KXEARNINGSMENTIONCBRS",
@@ -3229,11 +3248,13 @@
     "KXEARNINGSMENTIONCMG",
     "KXEARNINGSMENTIONCOHR",
     "KXEARNINGSMENTIONCOINBASE",
+    "KXEARNINGSMENTIONCOP",
     "KXEARNINGSMENTIONCOST",
     "KXEARNINGSMENTIONCRCL",
     "KXEARNINGSMENTIONCRM",
     "KXEARNINGSMENTIONCRWD",
     "KXEARNINGSMENTIONCRWV",
+    "KXEARNINGSMENTIONCSCO",
     "KXEARNINGSMENTIONCVNA",
     "KXEARNINGSMENTIONCVX",
     "KXEARNINGSMENTIONDAL",
@@ -3241,6 +3262,7 @@
     "KXEARNINGSMENTIONDE",
     "KXEARNINGSMENTIONDEER",
     "KXEARNINGSMENTIONDELL",
+    "KXEARNINGSMENTIONDHR",
     "KXEARNINGSMENTIONDIS",
     "KXEARNINGSMENTIONDKNG",
     "KXEARNINGSMENTIONDKS",
@@ -3255,7 +3277,9 @@
     "KXEARNINGSMENTIONFDX",
     "KXEARNINGSMENTIONFIG",
     "KXEARNINGSMENTIONFUTU",
+    "KXEARNINGSMENTIONGE",
     "KXEARNINGSMENTIONGEV",
+    "KXEARNINGSMENTIONGILD",
     "KXEARNINGSMENTIONGIS",
     "KXEARNINGSMENTIONGM",
     "KXEARNINGSMENTIONGME",
@@ -3267,21 +3291,25 @@
     "KXEARNINGSMENTIONHLT",
     "KXEARNINGSMENTIONHOOD",
     "KXEARNINGSMENTIONHPE",
+    "KXEARNINGSMENTIONIBM",
     "KXEARNINGSMENTIONINTC",
     "KXEARNINGSMENTIONINTU",
     "KXEARNINGSMENTIONISRG",
     "KXEARNINGSMENTIONJNJ",
     "KXEARNINGSMENTIONJPM",
     "KXEARNINGSMENTIONKKR",
+    "KXEARNINGSMENTIONKLAC",
     "KXEARNINGSMENTIONKLAR",
     "KXEARNINGSMENTIONKMX",
     "KXEARNINGSMENTIONKO",
     "KXEARNINGSMENTIONKR",
     "KXEARNINGSMENTIONKTOS",
     "KXEARNINGSMENTIONLEVI",
+    "KXEARNINGSMENTIONLIN",
     "KXEARNINGSMENTIONLLY",
     "KXEARNINGSMENTIONLMT",
     "KXEARNINGSMENTIONLOW",
+    "KXEARNINGSMENTIONLRCX",
     "KXEARNINGSMENTIONLUCID",
     "KXEARNINGSMENTIONLULU",
     "KXEARNINGSMENTIONLUNR",
@@ -3294,6 +3322,7 @@
     "KXEARNINGSMENTIONMELI",
     "KXEARNINGSMENTIONMETA",
     "KXEARNINGSMENTIONMKC",
+    "KXEARNINGSMENTIONMRK",
     "KXEARNINGSMENTIONMRVL",
     "KXEARNINGSMENTIONMS",
     "KXEARNINGSMENTIONMSFT",
@@ -3301,6 +3330,8 @@
     "KXEARNINGSMENTIONMTN",
     "KXEARNINGSMENTIONMU",
     "KXEARNINGSMENTIONNBIS",
+    "KXEARNINGSMENTIONNEE",
+    "KXEARNINGSMENTIONNEM",
     "KXEARNINGSMENTIONNFLX",
     "KXEARNINGSMENTIONNIO",
     "KXEARNINGSMENTIONNKE",
@@ -3312,9 +3343,12 @@
     "KXEARNINGSMENTIONPANW",
     "KXEARNINGSMENTIONPATH",
     "KXEARNINGSMENTIONPEP",
+    "KXEARNINGSMENTIONPFE",
     "KXEARNINGSMENTIONPG",
     "KXEARNINGSMENTIONPGR",
+    "KXEARNINGSMENTIONPLD",
     "KXEARNINGSMENTIONPLTR",
+    "KXEARNINGSMENTIONPM",
     "KXEARNINGSMENTIONPSKY",
     "KXEARNINGSMENTIONPYPL",
     "KXEARNINGSMENTIONQCOM",
@@ -3324,12 +3358,16 @@
     "KXEARNINGSMENTIONRKLB",
     "KXEARNINGSMENTIONROKU",
     "KXEARNINGSMENTIONROST",
+    "KXEARNINGSMENTIONRTX",
     "KXEARNINGSMENTIONRY",
     "KXEARNINGSMENTIONSBUX",
+    "KXEARNINGSMENTIONSCHW",
     "KXEARNINGSMENTIONSFM",
     "KXEARNINGSMENTIONSHOP",
     "KXEARNINGSMENTIONSJM",
+    "KXEARNINGSMENTIONSKHY",
     "KXEARNINGSMENTIONSNAP",
+    "KXEARNINGSMENTIONSNDK",
     "KXEARNINGSMENTIONSNOW",
     "KXEARNINGSMENTIONSPCX",
     "KXEARNINGSMENTIONSPOT",
@@ -3337,25 +3375,33 @@
     "KXEARNINGSMENTIONSYUM",
     "KXEARNINGSMENTIONTFC",
     "KXEARNINGSMENTIONTGT",
+    "KXEARNINGSMENTIONTJX",
     "KXEARNINGSMENTIONTLN",
+    "KXEARNINGSMENTIONTMO",
+    "KXEARNINGSMENTIONTMUS",
     "KXEARNINGSMENTIONTOL",
     "KXEARNINGSMENTIONTOST",
     "KXEARNINGSMENTIONTSLA",
     "KXEARNINGSMENTIONTSMC",
     "KXEARNINGSMENTIONTTWO",
+    "KXEARNINGSMENTIONTXN",
     "KXEARNINGSMENTIONUAL",
     "KXEARNINGSMENTIONUBER",
     "KXEARNINGSMENTIONULTA",
+    "KXEARNINGSMENTIONUNH",
+    "KXEARNINGSMENTIONUNP",
     "KXEARNINGSMENTIONURBN",
     "KXEARNINGSMENTIONV",
     "KXEARNINGSMENTIONVSCO",
     "KXEARNINGSMENTIONVST",
     "KXEARNINGSMENTIONVZ",
+    "KXEARNINGSMENTIONWELL",
     "KXEARNINGSMENTIONWEN",
     "KXEARNINGSMENTIONWFC",
     "KXEARNINGSMENTIONWGO",
     "KXEARNINGSMENTIONWING",
     "KXEARNINGSMENTIONWMT",
+    "KXEARNINGSMENTIONXOM",
     "KXEARNINGSMENTIONYETI",
     "KXEARNINGSMENTIONYOU",
     "KXEARNINGSMENTIONYUM",
@@ -3727,6 +3773,7 @@
     "KXESPYTEAM",
     "KXESPYTENNIS",
     "KXESTONIAPARLI",
+    "KXESTONIAPM",
     "KXESTPRES",
     "KXETH15M",
     "KXETHABOVE2500BY",
@@ -3934,6 +3981,7 @@
     "KXFDAAPPROVALPSYCHEDELIC",
     "KXFDAAPPROVE",
     "KXFDABANS",
+    "KXFDANOM",
     "KXFDARETATRUTDE",
     "KXFDARETATRUTIDE",
     "KXFDASHORT",
@@ -3946,6 +3994,7 @@
     "KXFDVFOOTBALLFUN",
     "KXFDVGENSYN",
     "KXFDVHYPERSWAP",
+    "KXFDVKINETIQ",
     "KXFDVLIGHTER",
     "KXFDVLINEA",
     "KXFDVMEGAETH",
@@ -4410,6 +4459,7 @@
     "KXGGSCREEN",
     "KXGGSTANDUP",
     "KXGGTVSUPACTR",
+    "KXGGWINNER",
     "KXGHANAPARLI",
     "KXGHANAPRES",
     "KXGILLISESPYS",
@@ -4792,6 +4842,7 @@
     "KXHDA",
     "KXHDCC",
     "KXHDDCVG",
+    "KXHDFT",
     "KXHEADLINE",
     "KXHEADOFCHARLES",
     "KXHEADSTART",
@@ -4852,6 +4903,7 @@
     "KXHIGHTPHX",
     "KXHIGHTRJTT",
     "KXHIGHTRKSI",
+    "KXHIGHTSAN",
     "KXHIGHTSBGR",
     "KXHIGHTSDF",
     "KXHIGHTSFO",
@@ -5013,6 +5065,7 @@
     "KXHURNJ",
     "KXHURNO",
     "KXHURNYC",
+    "KXHURORL",
     "KXHURPATHAL",
     "KXHURPATHFLA",
     "KXHURPATHGULFCOAST",
@@ -5034,6 +5087,7 @@
     "KXHYPOBILL",
     "KXIA02R",
     "KXIA03D",
+    "KXIAAUDITOR",
     "KXIAEAIRANAGREEMENT",
     "KXIAETHANOL",
     "KXIAFARMLAND",
@@ -5262,6 +5316,7 @@
     "KXISRFINMIN",
     "KXISRFIRSTMANDATE",
     "KXISRFORMIN",
+    "KXISRHEALTHMIN",
     "KXISRJUSMIN",
     "KXISRKNESSETCOUNT",
     "KXISRNATSECMIN",
@@ -5856,6 +5911,7 @@
     "KXLIGAPORTUGAL1HSPREAD",
     "KXLIGAPORTUGAL1HTOTAL",
     "KXLIGAPORTUGAL2GAME",
+    "KXLIGAPORTUGAL2SPREAD",
     "KXLIGAPORTUGAL2TOTAL",
     "KXLIGAPORTUGALADVANCE",
     "KXLIGAPORTUGALBTTS",
@@ -6017,6 +6073,7 @@
     "KXLOWTEDDF",
     "KXLOWTEGLL",
     "KXLOWTEWR",
+    "KXLOWTHOU",
     "KXLOWTLAX",
     "KXLOWTLSGG",
     "KXLOWTLTFM",
@@ -6193,6 +6250,7 @@
     "KXMARSVRAIL",
     "KXMARTIAL",
     "KXMARTINDNCOUT",
+    "KXMARVEL",
     "KXMASCIENRDEMP",
     "KXMASKMAND",
     "KXMASSIEDISCHARGE",
@@ -6296,6 +6354,7 @@
     "KXMCZELDAEOW",
     "KXMD06D",
     "KXMDQUESTION3",
+    "KXMDSD2",
     "KXMDT",
     "KXMDTA",
     "KXME",
@@ -6322,6 +6381,7 @@
     "KXMEDIAINTERVIEWSPRINCEANDREW",
     "KXMEDIANRENTCHI",
     "KXMEDIANRENTLA",
+    "KXMEDIANRENTMIA",
     "KXMEDIARELEASEADDTRAILER",
     "KXMEDIARELEASEDATEAHS",
     "KXMEDIARELEASEDATEEHSN",
@@ -7004,6 +7064,7 @@
     "KXNBAFIRSTOPPONENT",
     "KXNBAFRANCHISECOST",
     "KXNBAGAME7",
+    "KXNBAGAMEHIGHSCORE",
     "KXNBAGAMES",
     "KXNBAGAMESPECIALS",
     "KXNBAH2HBENCHPTS",
@@ -7123,6 +7184,7 @@
     "KXNBAWFINMVP",
     "KXNBAWINSTREAK",
     "KXNBBGAME",
+    "KXNBBSPREAD",
     "KXNBIGAME",
     "KXNBISMENTION",
     "KXNBL",
@@ -7478,6 +7540,7 @@
     "KXNEWALBUMKANYE",
     "KXNEWALBUMKATYPERRY",
     "KXNEWALBUMKDOT",
+    "KXNEWALBUMSKY",
     "KXNEWARKMAYOR",
     "KXNEWCASTLEUBADGE",
     "KXNEWCENSUS",
@@ -7513,6 +7576,7 @@
     "KXNEWOUTBREAKPHEICMEASLES",
     "KXNEWOUTBREAKPMEASLES",
     "KXNEWOUTBREAKPMPOX",
+    "KXNEWPARTYMUSK",
     "KXNEWPOPECONTINENT",
     "KXNEWPOPEDATE",
     "KXNEWPOPENAME",
@@ -8126,6 +8190,7 @@
     "KXNUNEZANNOUNCEOUT",
     "KXNURSESTRIKE",
     "KXNVDAA",
+    "KXNVDACEO",
     "KXNVDACEOINT",
     "KXNVDADELAY",
     "KXNVDAMENTION",
@@ -8255,6 +8320,7 @@
     "KXODINVCTFINALS",
     "KXOFAC",
     "KXOFFICIALTURKEY",
+    "KXOH13D",
     "KXOH13DR",
     "KXOH13R",
     "KXOH1D",
@@ -8505,6 +8571,7 @@
     "KXPERFORMSONGEVENTDR",
     "KXPERFORMSONGJB",
     "KXPERFORMSONGKG",
+    "KXPERFORMSONGSC",
     "KXPERFORMSUPERBOWL",
     "KXPERFORMSUPERBOWLB",
     "KXPERFORMVMA",
@@ -8792,6 +8859,7 @@
     "KXPRIMEPART",
     "KXPRIMESPEND",
     "KXPRMPRIMARY",
+    "KXPRODCAGR",
     "KXPROFILECHANGEMUSK",
     "KXPROFILECHANGESWIFT",
     "KXPROGSWEEP",
@@ -8840,6 +8908,7 @@
     "KXQCPQSEATSNUM",
     "KXQOWOMENSINGLES",
     "KXQRECESS",
+    "KXQROOGOV",
     "KXQSTARSADVANCE",
     "KXQSTARSSPREAD",
     "KXQTEND",
@@ -9331,6 +9400,7 @@
     "KXRUGBYNRLMATCH",
     "KXRUGBYWC",
     "KXRULESPROXY",
+    "KXRULESSTOCKBAN",
     "KXRUNBYMIDTERM",
     "KXRUPAULDRAGRACE",
     "KXRUSDIESELGL",
@@ -9428,6 +9498,7 @@
     "KXSBADS",
     "KXSBGUESTS",
     "KXSBHEADLINE",
+    "KXSBHOST",
     "KXSBLSPREAD",
     "KXSBMENTION",
     "KXSBOPENINGCEREMONY",
@@ -9438,6 +9509,7 @@
     "KXSBUXA",
     "KXSBUXCC",
     "KXSBUXFT",
+    "KXSBUXSAR",
     "KXSC01R",
     "KXSCARBNORTHBY",
     "KXSCARBOROSWBY",
@@ -9887,6 +9959,7 @@
     "KXSONGCHARTDRA",
     "KXSONGCHARTJCOLE",
     "KXSONGCHARTSJCOLE",
+    "KXSONGCHARTTSWIFT",
     "KXSONGPEAKCRUELSUMMER",
     "KXSONGRELEASE",
     "KXSONGRELEASEAG",
@@ -9961,6 +10034,7 @@
     "KXSPOTIFY100MILLION",
     "KXSPOTIFY100MILLIONJUSTINBIEBER",
     "KXSPOTIFY100MILLIONSWIFT",
+    "KXSPOTIFY2BILLION",
     "KXSPOTIFY3D",
     "KXSPOTIFY4BILLION",
     "KXSPOTIFY4D",
@@ -10065,6 +10139,7 @@
     "KXSPOTIFYSONGSSHAPESHIFTER",
     "KXSPOTIFYSONGSSLMPT2",
     "KXSPOTIFYSONGSSOMEBODY",
+    "KXSPOTIFYSONGSSPEEDDEMON",
     "KXSPOTIFYSONGSSTATESIDE",
     "KXSPOTIFYSONGSSUBWAY",
     "KXSPOTIFYSONGSSUCKERPUNCH",
@@ -10146,6 +10221,7 @@
     "KXSTATELEGCO",
     "KXSTATELEGGA",
     "KXSTATELEGHI",
+    "KXSTATELEGIA",
     "KXSTATELEGID",
     "KXSTATELEGIL",
     "KXSTATELEGIN",
@@ -10914,6 +10990,7 @@
     "KXTRUMPMEETDEMS",
     "KXTRUMPMEETDLEAD",
     "KXTRUMPMEETELON",
+    "KXTRUMPMEETING",
     "KXTRUMPMEETM",
     "KXTRUMPMENTION",
     "KXTRUMPMENTIONB",
@@ -11320,6 +11397,7 @@
     "KXUKPMLEAVE",
     "KXUKRAINE",
     "KXUKRAINERESIGN",
+    "KXUKRENEWOB",
     "KXUKRETAIL",
     "KXUKRIMPEACH",
     "KXUKRPLADVANCE",
@@ -11436,6 +11514,7 @@
     "KXUSDRUBMAX",
     "KXUSDSEK",
     "KXUSDSEKAW",
+    "KXUSDTMIN",
     "KXUSDTWDMAX",
     "KXUSDTWDMIN",
     "KXUSDX",
@@ -11453,6 +11532,7 @@
     "KXUSHAGREENLAND",
     "KXUSHAITIRELIEF",
     "KXUSHOME",
+    "KXUSHOMEINVENT",
     "KXUSICA",
     "KXUSIL",
     "KXUSINDEPENDENTCONGRESS",
@@ -12333,6 +12413,7 @@
     "LIZARRAGA",
     "LLM1",
     "LOVERBOY",
+    "MAERSK",
     "MAMMAMIA3",
     "MANCHIN",
     "MANHEIMUSEDCAR",
@@ -12597,6 +12678,7 @@
     "RTHOTDS2",
     "RTIF",
     "RTINSIDEOUT2",
+    "RTJOKER2",
     "RTKINDS",
     "RTKOK",
     "RTKRAVEN",
@@ -12636,6 +12718,7 @@
     "SECLABOR",
     "SECTREASURY",
     "SEMIPRODH",
+    "SENATE",
     "SENATEAK",
     "SENATEAL",
     "SENATEAR",
@@ -12848,16 +12931,16 @@
     "ZYNBAN"
   ],
   "metrics": {
-    "chunk_bytes": 6458,
+    "chunk_bytes": 68489,
     "completed": false,
-    "cumulative_chunk_bytes": 8087870,
-    "cumulative_rows_written": 389469,
-    "elapsed_seconds": 288.585,
-    "events_skipped_by_sampling": 2388,
-    "markets_kept": 164,
-    "markets_skipped_by_sampling": 30,
-    "requests_made": 2084,
-    "rows_written": 164,
+    "cumulative_chunk_bytes": 8156359,
+    "cumulative_rows_written": 391568,
+    "elapsed_seconds": 560.848,
+    "events_skipped_by_sampling": 98,
+    "markets_kept": 2195,
+    "markets_skipped_by_sampling": 0,
+    "requests_made": 3401,
+    "rows_written": 2099,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -16318,6 +16401,16 @@
       }
     },
     "GRAMBRS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "GRAMMYCOUNTSWIFT": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -20357,6 +20450,16 @@
         "cursor": ""
       }
     },
+    "KXACTBLUEFOURTH": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXACTBLUETOP": {
       "historical": {
         "complete": true,
@@ -20802,6 +20905,12 @@
       }
     },
     "KXAFCCLSCORE": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXAFCCLSPREAD": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -22231,6 +22340,12 @@
         "cursor": ""
       },
       "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXALCARAZCOACH": {
+      "events": {
         "complete": true,
         "cursor": ""
       }
@@ -30007,6 +30122,16 @@
         "cursor": ""
       }
     },
+    "KXBAFTAACTO": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXBAFTAACTR": {
       "historical": {
         "complete": true,
@@ -31016,6 +31141,16 @@
       }
     },
     "KXBEASTWATER": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXBEATLES": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -33646,6 +33781,12 @@
       }
     },
     "KXBOTOLAGAME": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXBOTOLATOTAL": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -41075,6 +41216,16 @@
         "cursor": ""
       }
     },
+    "KXCHISNOWXMAS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXCHLLDP": {
       "events": {
         "complete": true,
@@ -43141,6 +43292,16 @@
         "cursor": ""
       }
     },
+    "KXCOMPTROLLERNOMILD": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXCONCACAFCCUP1H": {
       "events": {
         "complete": true,
@@ -44052,6 +44213,12 @@
       }
     },
     "KXCOPADOBRASILTOTAL": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXCOPADOBRASILWADVANCE": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -53875,7 +54042,27 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONABBV": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONABNB": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONABT": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -53926,6 +54113,16 @@
       }
     },
     "KXEARNINGSMENTIONADBE": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONADI": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -54025,7 +54222,27 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONANET": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONANF": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONAPH": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -54045,7 +54262,27 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONARM": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONAS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONASML": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -54155,6 +54392,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONBKNG": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONBLK": {
       "historical": {
         "complete": true,
@@ -54196,6 +54443,16 @@
       }
     },
     "KXEARNINGSMENTIONCAR": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONCAT": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -54305,6 +54562,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONCOP": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONCOST": {
       "historical": {
         "complete": true,
@@ -54346,6 +54613,16 @@
       }
     },
     "KXEARNINGSMENTIONCRWV": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONCSCO": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -54416,6 +54693,16 @@
       }
     },
     "KXEARNINGSMENTIONDELL": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONDHR": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -54565,7 +54852,27 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONGE": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONGEV": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONGILD": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -54685,6 +54992,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONIBM": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONINTC": {
       "historical": {
         "complete": true,
@@ -54736,6 +55053,16 @@
       }
     },
     "KXEARNINGSMENTIONKKR": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONKLAC": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -54805,6 +55132,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONLIN": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONLLY": {
       "historical": {
         "complete": true,
@@ -54826,6 +55163,16 @@
       }
     },
     "KXEARNINGSMENTIONLOW": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONLRCX": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -54955,6 +55302,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONMRK": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONMRVL": {
       "historical": {
         "complete": true,
@@ -55016,6 +55373,26 @@
       }
     },
     "KXEARNINGSMENTIONNBIS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONNEE": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONNEM": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -55135,6 +55512,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONPFE": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONPG": {
       "historical": {
         "complete": true,
@@ -55155,7 +55542,27 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONPLD": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONPLTR": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONPM": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -55255,6 +55662,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONRTX": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONRY": {
       "historical": {
         "complete": true,
@@ -55266,6 +55683,16 @@
       }
     },
     "KXEARNINGSMENTIONSBUX": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONSCHW": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -55305,7 +55732,27 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONSKHY": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONSNAP": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONSNDK": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -55385,7 +55832,37 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONTJX": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONTLN": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONTMO": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONTMUS": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -55445,6 +55922,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONTXN": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONUAL": {
       "historical": {
         "complete": true,
@@ -55466,6 +55953,26 @@
       }
     },
     "KXEARNINGSMENTIONULTA": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONUNH": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONUNP": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -55525,6 +56032,16 @@
         "cursor": ""
       }
     },
+    "KXEARNINGSMENTIONWELL": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXEARNINGSMENTIONWEN": {
       "historical": {
         "complete": true,
@@ -55566,6 +56083,16 @@
       }
     },
     "KXEARNINGSMENTIONWMT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXEARNINGSMENTIONXOM": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -61687,6 +62214,16 @@
         "cursor": ""
       }
     },
+    "KXESTONIAPM": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXESTPRES": {
       "historical": {
         "complete": true,
@@ -66655,6 +67192,16 @@
         "cursor": ""
       }
     },
+    "KXFDANOM": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXFDARETATRUTDE": {
       "historical": {
         "complete": true,
@@ -66766,6 +67313,16 @@
       }
     },
     "KXFDVHYPERSWAP": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXFDVKINETIQ": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -71261,6 +71818,16 @@
         "cursor": ""
       }
     },
+    "KXGGWINNER": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXGHANAPARLI": {
       "historical": {
         "complete": true,
@@ -75233,6 +75800,16 @@
         "cursor": ""
       }
     },
+    "KXHDFT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXHEADLINE": {
       "historical": {
         "complete": true,
@@ -75812,6 +76389,16 @@
       }
     },
     "KXHIGHTRKSI": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXHIGHTSAN": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -77437,6 +78024,16 @@
         "cursor": ""
       }
     },
+    "KXHURORL": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXHURPATHAL": {
       "historical": {
         "complete": true,
@@ -78106,6 +78703,16 @@
       }
     },
     "KXIA03D": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXIAAUDITOR": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -80454,6 +81061,16 @@
       }
     },
     "KXISRFORMIN": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXISRHEALTHMIN": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -87431,6 +88048,12 @@
         "cursor": ""
       }
     },
+    "KXLIGAPORTUGAL2SPREAD": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXLIGAPORTUGAL2TOTAL": {
       "events": {
         "complete": true,
@@ -90411,6 +91034,16 @@
         "cursor": ""
       }
     },
+    "KXLOWTHOU": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXLOWTLAX": {
       "historical": {
         "complete": true,
@@ -92011,6 +92644,16 @@
         "cursor": ""
       }
     },
+    "KXMARVEL": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXMASCIENRDEMP": {
       "historical": {
         "complete": true,
@@ -93021,6 +93664,16 @@
         "cursor": ""
       }
     },
+    "KXMDSD2": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXMDT": {
       "historical": {
         "complete": true,
@@ -93272,6 +93925,16 @@
       }
     },
     "KXMEDIANRENTLA": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXMEDIANRENTMIA": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -105211,6 +105874,12 @@
         "cursor": ""
       }
     },
+    "KXNBAGAMEHIGHSCORE": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXNBAGAMES": {
       "events": {
         "complete": true,
@@ -106824,6 +107493,12 @@
       }
     },
     "KXNBBGAME": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXNBBSPREAD": {
       "events": {
         "complete": true,
         "cursor": ""
@@ -112921,6 +113596,16 @@
         "cursor": ""
       }
     },
+    "KXNEWALBUMSKY": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXNEWARKMAYOR": {
       "historical": {
         "complete": true,
@@ -113226,6 +113911,16 @@
       }
     },
     "KXNEWOUTBREAKPMPOX": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXNEWPARTYMUSK": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -119947,6 +120642,16 @@
         "cursor": ""
       }
     },
+    "KXNVDACEO": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXNVDACEOINT": {
       "historical": {
         "complete": true,
@@ -121228,6 +121933,16 @@
       }
     },
     "KXOFFICIALTURKEY": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXOH13D": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -123884,6 +124599,16 @@
       }
     },
     "KXPERFORMSONGKG": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXPERFORMSONGSC": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -126891,6 +127616,16 @@
         "cursor": ""
       }
     },
+    "KXPRODCAGR": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXPROFILECHANGEMUSK": {
       "historical": {
         "complete": true,
@@ -127326,6 +128061,16 @@
       }
     },
     "KXQRECESS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXQROOGOV": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -132215,6 +132960,16 @@
         "cursor": ""
       }
     },
+    "KXRULESSTOCKBAN": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXRUNBYMIDTERM": {
       "historical": {
         "complete": true,
@@ -133283,6 +134038,12 @@
         "cursor": ""
       }
     },
+    "KXSBHOST": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXSBLSPREAD": {
       "events": {
         "complete": true,
@@ -133366,6 +134127,16 @@
       }
     },
     "KXSBUXFT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXSBUXSAR": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -139817,6 +140588,16 @@
         "cursor": ""
       }
     },
+    "KXSONGCHARTTSWIFT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXSONGPEAKCRUELSUMMER": {
       "historical": {
         "complete": true,
@@ -140516,6 +141297,16 @@
       }
     },
     "KXSPOTIFY100MILLIONSWIFT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXSPOTIFY2BILLION": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -141589,6 +142380,16 @@
         "cursor": ""
       }
     },
+    "KXSPOTIFYSONGSSPEEDDEMON": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXSPOTIFYSONGSSTATESIDE": {
       "historical": {
         "complete": true,
@@ -142348,6 +143149,16 @@
       }
     },
     "KXSTATELEGHI": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXSTATELEGIA": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -151067,6 +151878,16 @@
         "cursor": ""
       }
     },
+    "KXTRUMPMEETING": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXTRUMPMEETM": {
       "historical": {
         "complete": true,
@@ -156771,6 +157592,16 @@
         "cursor": ""
       }
     },
+    "KXUKRENEWOB": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXUKRETAIL": {
       "historical": {
         "complete": true,
@@ -158245,6 +159076,16 @@
         "cursor": ""
       }
     },
+    "KXUSDTMIN": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXUSDTWDMAX": {
       "historical": {
         "complete": true,
@@ -158406,6 +159247,16 @@
       }
     },
     "KXUSHOME": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXUSHOMEINVENT": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -170241,6 +171092,16 @@
         "cursor": ""
       }
     },
+    "MAERSK": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "MAMMAMIA3": {
       "historical": {
         "complete": true,
@@ -172877,6 +173738,16 @@
         "cursor": ""
       }
     },
+    "RTJOKER2": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "RTKINDS": {
       "historical": {
         "complete": true,
@@ -173258,6 +174129,16 @@
       }
     },
     "SEMIPRODH": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "SENATE": {
       "historical": {
         "complete": true,
         "cursor": ""
