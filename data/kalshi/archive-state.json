@@ -1612,6 +1612,7 @@
     "KXBERLIN2ND",
     "KXBERLIN3RD",
     "KXBERLINANYSEAT",
+    "KXBERLINGOVMAYOR",
     "KXBERLINSTATE",
     "KXBERNIEMENTION",
     "KXBESSENTANNOUNCEOUT",
@@ -13329,16 +13330,16 @@
     "ZYNBAN"
   ],
   "metrics": {
-    "chunk_bytes": 18880,
+    "chunk_bytes": 260,
     "completed": false,
-    "cumulative_chunk_bytes": 8372533,
+    "cumulative_chunk_bytes": 8372793,
     "cumulative_rows_written": 398798,
-    "elapsed_seconds": 390.358,
-    "events_skipped_by_sampling": 23284,
-    "markets_kept": 504,
-    "markets_skipped_by_sampling": 30,
-    "requests_made": 1995,
-    "rows_written": 502,
+    "elapsed_seconds": 292.193,
+    "events_skipped_by_sampling": 0,
+    "markets_kept": 0,
+    "markets_skipped_by_sampling": 18,
+    "requests_made": 2375,
+    "rows_written": 0,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -32441,6 +32442,16 @@
       }
     },
     "KXBERLINANYSEAT": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXBERLINGOVMAYOR": {
       "historical": {
         "complete": true,
         "cursor": ""
