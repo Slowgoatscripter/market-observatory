@@ -8479,6 +8479,7 @@
     "KXNFLMENTION",
     "KXNFLMOSTRECYDS",
     "KXNFLMOSTRSHYDS",
+    "KXNFLMVP",
     "KXNFLMVPSPECIALS",
     "KXNFLNBA",
     "KXNFLNEXTCOACHOUT",
@@ -9084,6 +9085,7 @@
     "KXOSCARNOMDIR",
     "KXOSCARNOMDOCU",
     "KXOSCARNOMDOCUS",
+    "KXOSCARNOMINEESPIC",
     "KXOSCARNOMINTERFILM",
     "KXOSCARNOMMAKEUP",
     "KXOSCARNOMPIC",
@@ -12208,6 +12210,7 @@
     "KXUEFANL1HSPREAD",
     "KXUEFANL1HTOTAL",
     "KXUEFANLADVANCE",
+    "KXUEFANLBTTS",
     "KXUEFANLFTTS",
     "KXUEFANLGAME",
     "KXUEFANLGOAL",
@@ -13973,16 +13976,16 @@
     "ZYNBAN"
   ],
   "metrics": {
-    "chunk_bytes": 2062,
+    "chunk_bytes": 10048,
     "completed": false,
-    "cumulative_chunk_bytes": 8753136,
-    "cumulative_rows_written": 417178,
-    "elapsed_seconds": 166.386,
-    "events_skipped_by_sampling": 506,
-    "markets_kept": 39,
-    "markets_skipped_by_sampling": 0,
-    "requests_made": 968,
-    "rows_written": 37,
+    "cumulative_chunk_bytes": 8763184,
+    "cumulative_rows_written": 417701,
+    "elapsed_seconds": 340.263,
+    "events_skipped_by_sampling": 156,
+    "markets_kept": 523,
+    "markets_skipped_by_sampling": 21,
+    "requests_made": 2599,
+    "rows_written": 523,
     "stopped_early": "Kalshi HTTP 429 after retries"
   },
   "series": {
@@ -128338,6 +128341,12 @@
         }
       }
     },
+    "KXNFLMVP": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
     "KXNFLMVPSPECIALS": {
       "events": {
         "complete": true,
@@ -135127,6 +135136,16 @@
       }
     },
     "KXOSCARNOMDOCUS": {
+      "historical": {
+        "complete": true,
+        "cursor": ""
+      },
+      "live": {
+        "complete": true,
+        "cursor": ""
+      }
+    },
+    "KXOSCARNOMINEESPIC": {
       "historical": {
         "complete": true,
         "cursor": ""
@@ -171444,6 +171463,34 @@
       "events": {
         "complete": true,
         "cursor": ""
+      }
+    },
+    "KXUEFANLBTTS": {
+      "events": {
+        "complete": true,
+        "cursor": ""
+      },
+      "selected_events": {
+        "KXUEFANLBTTS-26OCT01WALNOR": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        },
+        "KXUEFANLBTTS-26OCT03CROENG": {
+          "historical": {
+            "complete": true,
+            "cursor": ""
+          },
+          "live": {
+            "complete": true,
+            "cursor": ""
+          }
+        }
       }
     },
     "KXUEFANLFTTS": {
